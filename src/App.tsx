@@ -229,8 +229,8 @@ export default function App(){
             </div>
           </div>
 
-          <div className="mb-4 border border-solid border-gray-300 rounded flex flex-row flwx-wrap bg-gray-100 overflow-hidden">
-            <div className="w-3/4 grid place-content-center py-6 px-4 text-center">
+          <div className="mb-4 border border-solid border-gray-300 rounded flex flex-row flex-wrap bg-gray-100 overflow-hidden">
+            <div className="w-full lg:w-3/4 grid place-content-center py-6 px-4 text-center overflow-auto">
               <h6 className="mb-4">{'<Avatar />'}</h6>
               <Avatar
                 size={avatarSize}
@@ -249,7 +249,7 @@ export default function App(){
                 {GROUPS.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.name} className="rounded-full" />)}
               </AvatarGroup>
             </div>
-            <div className="w-1/4 p-4 bg-white">
+            <div className="w-full lg:w-1/4 p-4 bg-white">
               <h6>{'<Avatar />'}</h6>
               <div className="space-y-4">
                 <div>

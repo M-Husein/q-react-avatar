@@ -1,6 +1,6 @@
 import '../../style/components/Avatar.scss';
 import type { CSSProperties } from 'react';
-import { useState, forwardRef } from 'react';
+import { useState, useEffect, forwardRef } from 'react';
 import { joinClasses, str2Hex, getInitials, darkOrLight } from '../../utils';
 import { parseSize } from './utils';
 
@@ -38,32 +38,30 @@ export const Avatar = forwardRef<HTMLImageElement, any>(
     }: AvatarProps,
     ref
   ) => {
-    let errStyle = {},
-        initName,
-        errClass = '',
-        trm = alt.trim(),
-        color = '',
-        initLoad = true;
+    const [load, setLoad] = useState<boolean>(true);
+    const [errorStyle, setErrorStyle] = useState({});
+    const [initial, setInitial] = useState();
+    const [errorClass, setErrorClass] = useState<string>('');
 
     const fixSize = parseSize(size);
 
-    const setDarkLight = (c: string) => darkOrLight(c) === 'dark' ? 'ava-light' : 'ava-dark';
-
-    if(!src){
-      color = bg ? bg.replace('#', '') : str2Hex(trm);
-      errStyle = {
-        '--fs': 'calc(' + fixSize + 'px / 2.25)',
+    const parseView = () => {
+      const trm = alt.trim();
+      const color = bg ? bg.replace('#', '') : str2Hex(trm);
+      setInitial(getInitials(trm) || '?');
+      setErrorClass(darkOrLight(color) === 'dark' ? 'ava-light' : 'ava-dark');
+      setErrorStyle({
+        '--fs': 'calc(' + parseSize(size) + 'px / 2.25)',
         '--bg': '#' + color
-      };
-      initName = getInitials(trm) || '?';
-      errClass = setDarkLight(color);
-      initLoad = false;
+      });
     }
 
-    const [load, setLoad] = useState<boolean>(initLoad);
-    const [errorStyle, setErrorStyle] = useState(errStyle);
-    const [initial, setInitial] = useState(initName);
-    const [errorClass, setErrorClass] = useState<string>(errClass);
+    useEffect(() => {
+      if(!src){
+        parseView();
+        setLoad(false);
+      }
+    }, [src, size, alt, bg]);
 
     const Load = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
       setLoad(false);
@@ -77,14 +75,7 @@ export const Avatar = forwardRef<HTMLImageElement, any>(
       setLoad(false);
 
       if(!initial){
-        color = bg ? bg.replace('#', '') : str2Hex(trm);
-  
-        setInitial(getInitials(trm) || '?');
-        setErrorClass(setDarkLight(color));
-        setErrorStyle({
-          '--fs': 'calc(' + fixSize + 'px / 2.25)',
-          '--bg': '#' + color
-        });
+        parseView();
       }
 
       onError?.(e);
