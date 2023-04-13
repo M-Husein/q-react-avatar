@@ -62,7 +62,7 @@ export default function App(){
           <h1 className="h3"><code>{'<AvatarGroup />'}</code></h1>
           <h2 className="h4">Usage</h2>
           
-          <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
+          <div className="p-4 mb-6 border border-solid border-gray-300 rounded overflow-auto">
             <h3 className="h5"><code>size="xs"</code></h3>
             <AvatarGroup
               size="xs"
@@ -72,7 +72,7 @@ export default function App(){
             </AvatarGroup>
           </div>
           
-          <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
+          <div className="p-4 mb-6 border border-solid border-gray-300 rounded overflow-auto">
             <h3 className="h5"><code>size="sm"</code></h3>
             <AvatarGroup
               size="sm"
@@ -82,7 +82,7 @@ export default function App(){
             </AvatarGroup>
           </div>
 
-          <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
+          <div className="p-4 mb-6 border border-solid border-gray-300 rounded overflow-auto">
             <h3 className="h5">Default (<code>size="md"</code>)</h3>
             <AvatarGroup
               maxLength={5}
@@ -91,7 +91,7 @@ export default function App(){
             </AvatarGroup>
           </div>
 
-          <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
+          <div className="p-4 mb-6 border border-solid border-gray-300 rounded overflow-auto">
             <h3 className="h5"><code>size="lg"</code></h3>
             <AvatarGroup
               size="lg"
@@ -101,7 +101,7 @@ export default function App(){
             </AvatarGroup>
           </div>
 
-          <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
+          <div className="p-4 mb-6 border border-solid border-gray-300 rounded overflow-auto">
             <h3 className="h5">Custom <code>{'size={125}'}</code></h3>
             <AvatarGroup
               size={125}
@@ -111,7 +111,7 @@ export default function App(){
             </AvatarGroup>
           </div>
 
-          <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
+          <div className="p-4 mb-6 border border-solid border-gray-300 rounded overflow-auto">
             <h3 className="h5"><code>{'maxLength={4}'}</code></h3>
             <AvatarGroup
               maxLength={4}
@@ -135,7 +135,7 @@ export default function App(){
             </details>
           </div>
 
-          <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
+          <div className="p-4 mb-6 border border-solid border-gray-300 rounded overflow-auto">
             <h3 className="h5">Group with link</h3>
             <AvatarGroup
               size="lg"
@@ -188,7 +188,7 @@ export default function App(){
         <section>
           <h1 className="h3"><code>{'<Avatar />'}</code></h1>
           <h1 className="h4">Usage</h1>
-          <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
+          <div className="p-4 mb-6 border border-solid border-gray-300 rounded overflow-auto">
             <div className="space-x-4">
               <Avatar src="/img/hijab_girl.jpg" alt="Siti Umaya" />
               <Avatar src="/img/hijab_girl_2.webp" alt="Elizabeth Olsen"className="rounded" />
@@ -204,7 +204,7 @@ export default function App(){
             </details>
           </div>
 
-          <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
+          <div className="p-4 mb-6 border border-solid border-gray-300 rounded overflow-auto">
             <h3 className="h5">Option Size</h3>
             <div className="space-x-4">
               {OPTION_SIZE.map((item: any) =>
@@ -219,7 +219,7 @@ export default function App(){
             </div>
           </div>
 
-          <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
+          <div className="p-4 mb-6 border border-solid border-gray-300 rounded overflow-auto">
             <h3 className="h5">Custom Size</h3>
             <div className="space-x-4">
               <Avatar size={90} src="/img/hijab_girl.jpg" alt="Siti Umaya" />
