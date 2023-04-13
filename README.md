@@ -2,6 +2,8 @@
 
 React component for display avatar or user profile.
 
+## 
+
 Clone or download this repo.
 Then install dependencies:
 

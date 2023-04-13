@@ -1,0 +1,2354 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App > renders main app 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="bg-yellow-50 sticky top-0 z-10 shadow-md"
+      >
+        <div
+          class="flex items-center py-2 px-4 max-w-screen-xl mx-auto"
+        >
+          <a
+            class="no-underline font-bold py-1 text-lg"
+            href="/"
+          >
+            Avatar
+          </a>
+          <a
+            class="no-underline font-semibold flex mr-6 ml-auto"
+            href="https://github.com/M-Husein/q-react-avatar"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="github"
+              class="block mr-2"
+              height="25"
+              src="/img/github.svg"
+            />
+            Repo
+          </a>
+          <a
+            class="no-underline"
+            href="https://github.com/M-Husein"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="github"
+              class="block"
+              height="25"
+              src="/img/github.svg"
+            />
+          </a>
+          <a
+            class="no-underline ml-4"
+            href="https://www.linkedin.com/in/muhamad-husein"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="github"
+              class="block"
+              height="25"
+              src="/img/linkedin.svg"
+            />
+          </a>
+        </div>
+      </nav>
+      <div
+        class="p-4"
+      >
+        <section>
+          <h1
+            class="h3"
+          >
+            <code>
+              &lt;AvatarGroup /&gt;
+            </code>
+          </h1>
+          <h2
+            class="h4"
+          >
+            Usage
+          </h2>
+          <div
+            class="p-4 mb-6 border border-solid border-gray-300 rounded"
+          >
+            <h3
+              class="h5"
+            >
+              <code>
+                size="xs"
+              </code>
+            </h3>
+            <span
+              class="avatar-group"
+              role="group"
+            >
+              <img
+                alt="Muhamad Husein"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="26"
+                loading="lazy"
+                src="/img/muhamad_husein.jpg"
+                title="Muhamad Husein"
+                width="26"
+              />
+              <img
+                alt="Siti Umaya"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="26"
+                loading="lazy"
+                src="/img/hijab_girl.jpg"
+                title="Siti Umaya"
+                width="26"
+              />
+              <img
+                alt="Elizabeth Olsen"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="26"
+                loading="lazy"
+                src="/img/hijab_girl_2.webp"
+                title="Elizabeth Olsen"
+                width="26"
+              />
+              <img
+                alt="Jane Doe Taylor"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="26"
+                loading="lazy"
+                src="/img/hijab_girl_3.jpg"
+                title="Jane Doe Taylor"
+                width="26"
+              />
+              <img
+                alt="Bruce Wayne"
+                aria-label="BW"
+                class="ava ava-dark rounded-full"
+                decoding="async"
+                draggable="false"
+                height="26"
+                loading="lazy"
+                style="--fs: calc(26px / 2.25); --bg: #8de86d;"
+                title="Bruce Wayne"
+                width="26"
+              />
+              <span
+                class="ava ava-rest"
+                style="width: 26px; height: 26px; font-size: calc(26px / 2.25);"
+                title="Angelina Rose
+Diana Prince
+Peter Parker"
+              >
+                +
+                3
+              </span>
+            </span>
+          </div>
+          <div
+            class="p-4 mb-6 border border-solid border-gray-300 rounded"
+          >
+            <h3
+              class="h5"
+            >
+              <code>
+                size="sm"
+              </code>
+            </h3>
+            <span
+              class="avatar-group"
+              role="group"
+            >
+              <img
+                alt="Muhamad Husein"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="38"
+                loading="lazy"
+                src="/img/muhamad_husein.jpg"
+                title="Muhamad Husein"
+                width="38"
+              />
+              <img
+                alt="Siti Umaya"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="38"
+                loading="lazy"
+                src="/img/hijab_girl.jpg"
+                title="Siti Umaya"
+                width="38"
+              />
+              <img
+                alt="Elizabeth Olsen"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="38"
+                loading="lazy"
+                src="/img/hijab_girl_2.webp"
+                title="Elizabeth Olsen"
+                width="38"
+              />
+              <img
+                alt="Jane Doe Taylor"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="38"
+                loading="lazy"
+                src="/img/hijab_girl_3.jpg"
+                title="Jane Doe Taylor"
+                width="38"
+              />
+              <img
+                alt="Bruce Wayne"
+                aria-label="BW"
+                class="ava ava-dark rounded-full"
+                decoding="async"
+                draggable="false"
+                height="38"
+                loading="lazy"
+                style="--fs: calc(38px / 2.25); --bg: #8de86d;"
+                title="Bruce Wayne"
+                width="38"
+              />
+              <span
+                class="ava ava-rest"
+                style="width: 38px; height: 38px; font-size: calc(38px / 2.25);"
+                title="Angelina Rose
+Diana Prince
+Peter Parker"
+              >
+                +
+                3
+              </span>
+            </span>
+          </div>
+          <div
+            class="p-4 mb-6 border border-solid border-gray-300 rounded"
+          >
+            <h3
+              class="h5"
+            >
+              Default (
+              <code>
+                size="md"
+              </code>
+              )
+            </h3>
+            <span
+              class="avatar-group"
+              role="group"
+            >
+              <img
+                alt="Muhamad Husein"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/muhamad_husein.jpg"
+                title="Muhamad Husein"
+                width="56"
+              />
+              <img
+                alt="Siti Umaya"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl.jpg"
+                title="Siti Umaya"
+                width="56"
+              />
+              <img
+                alt="Elizabeth Olsen"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl_2.webp"
+                title="Elizabeth Olsen"
+                width="56"
+              />
+              <img
+                alt="Jane Doe Taylor"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl_3.jpg"
+                title="Jane Doe Taylor"
+                width="56"
+              />
+              <img
+                alt="Bruce Wayne"
+                aria-label="BW"
+                class="ava ava-dark rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                style="--fs: calc(56px / 2.25); --bg: #8de86d;"
+                title="Bruce Wayne"
+                width="56"
+              />
+              <span
+                class="ava ava-rest"
+                style="width: 56px; height: 56px; font-size: calc(56px / 2.25);"
+                title="Angelina Rose
+Diana Prince
+Peter Parker"
+              >
+                +
+                3
+              </span>
+            </span>
+          </div>
+          <div
+            class="p-4 mb-6 border border-solid border-gray-300 rounded"
+          >
+            <h3
+              class="h5"
+            >
+              <code>
+                size="lg"
+              </code>
+            </h3>
+            <span
+              class="avatar-group"
+              role="group"
+            >
+              <img
+                alt="Muhamad Husein"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="84"
+                loading="lazy"
+                src="/img/muhamad_husein.jpg"
+                title="Muhamad Husein"
+                width="84"
+              />
+              <img
+                alt="Siti Umaya"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="84"
+                loading="lazy"
+                src="/img/hijab_girl.jpg"
+                title="Siti Umaya"
+                width="84"
+              />
+              <img
+                alt="Elizabeth Olsen"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="84"
+                loading="lazy"
+                src="/img/hijab_girl_2.webp"
+                title="Elizabeth Olsen"
+                width="84"
+              />
+              <img
+                alt="Jane Doe Taylor"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="84"
+                loading="lazy"
+                src="/img/hijab_girl_3.jpg"
+                title="Jane Doe Taylor"
+                width="84"
+              />
+              <img
+                alt="Bruce Wayne"
+                aria-label="BW"
+                class="ava ava-dark rounded-full"
+                decoding="async"
+                draggable="false"
+                height="84"
+                loading="lazy"
+                style="--fs: calc(84px / 2.25); --bg: #8de86d;"
+                title="Bruce Wayne"
+                width="84"
+              />
+              <span
+                class="ava ava-rest"
+                style="width: 84px; height: 84px; font-size: calc(84px / 2.25);"
+                title="Angelina Rose
+Diana Prince
+Peter Parker"
+              >
+                +
+                3
+              </span>
+            </span>
+          </div>
+          <div
+            class="p-4 mb-6 border border-solid border-gray-300 rounded"
+          >
+            <h3
+              class="h5"
+            >
+              Custom 
+              <code>
+                size={125}
+              </code>
+            </h3>
+            <span
+              class="avatar-group"
+              role="group"
+            >
+              <img
+                alt="Muhamad Husein"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="125"
+                loading="lazy"
+                src="/img/muhamad_husein.jpg"
+                title="Muhamad Husein"
+                width="125"
+              />
+              <img
+                alt="Siti Umaya"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="125"
+                loading="lazy"
+                src="/img/hijab_girl.jpg"
+                title="Siti Umaya"
+                width="125"
+              />
+              <img
+                alt="Elizabeth Olsen"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="125"
+                loading="lazy"
+                src="/img/hijab_girl_2.webp"
+                title="Elizabeth Olsen"
+                width="125"
+              />
+              <img
+                alt="Jane Doe Taylor"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="125"
+                loading="lazy"
+                src="/img/hijab_girl_3.jpg"
+                title="Jane Doe Taylor"
+                width="125"
+              />
+              <img
+                alt="Bruce Wayne"
+                aria-label="BW"
+                class="ava ava-dark rounded-full"
+                decoding="async"
+                draggable="false"
+                height="125"
+                loading="lazy"
+                style="--fs: calc(125px / 2.25); --bg: #8de86d;"
+                title="Bruce Wayne"
+                width="125"
+              />
+              <span
+                class="ava ava-rest"
+                style="width: 125px; height: 125px; font-size: calc(125px / 2.25);"
+                title="Angelina Rose
+Diana Prince
+Peter Parker"
+              >
+                +
+                3
+              </span>
+            </span>
+          </div>
+          <div
+            class="p-4 mb-6 border border-solid border-gray-300 rounded"
+          >
+            <h3
+              class="h5"
+            >
+              <code>
+                maxLength={4}
+              </code>
+            </h3>
+            <span
+              class="avatar-group"
+              role="group"
+            >
+              <img
+                alt="Muhamad Husein"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/muhamad_husein.jpg"
+                title="Muhamad Husein"
+                width="56"
+              />
+              <img
+                alt="Siti Umaya"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl.jpg"
+                title="Siti Umaya"
+                width="56"
+              />
+              <img
+                alt="Elizabeth Olsen"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl_2.webp"
+                title="Elizabeth Olsen"
+                width="56"
+              />
+              <img
+                alt="Jane Doe Taylor"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl_3.jpg"
+                title="Jane Doe Taylor"
+                width="56"
+              />
+              <span
+                class="ava ava-rest"
+                style="width: 56px; height: 56px; font-size: calc(56px / 2.25);"
+                title="Bruce Wayne
+Angelina Rose
+Diana Prince
+Peter Parker"
+              >
+                +
+                4
+              </span>
+            </span>
+            <details
+              class="mt-4"
+            >
+              <summary
+                class="py-1 cursor-pointer hover:bg-blue-100"
+              >
+                CODE
+              </summary>
+              <pre
+                class="mt-0 border border-solid border-gray-300 p-4"
+              >
+                &lt;AvatarGroup
+  maxLength={4}
+&gt;
+  &lt;Avatar src="/img/muhamad_husein.jpg" alt="Muhamad Husein" className="rounded-full" /&gt;
+  &lt;Avatar src="/img/hijab_girl.jpg" alt="Siti Umaya" className="rounded-full" /&gt;
+  &lt;Avatar src="/img/hijab_girl_2.webp" alt="Elizabeth Olsen" className="rounded-full" /&gt;
+  &lt;Avatar src="/img/hijab_girl_3.jpg" alt="Jane Doe Taylor" className="rounded-full" /&gt;
+  &lt;Avatar alt="Bruce Wayne" className="rounded-full" /&gt;
+  &lt;Avatar src="/img/hijab_girl_4.jpg" alt="Angelina Rose" className="rounded-full" /&gt;
+  &lt;Avatar alt="Diana Prince" className="rounded-full" /&gt;
+  &lt;Avatar alt="Peter Parker" className="rounded-full" /&gt;
+&lt;/AvatarGroup&gt;
+              </pre>
+            </details>
+          </div>
+          <div
+            class="p-4 mb-6 border border-solid border-gray-300 rounded"
+          >
+            <h3
+              class="h5"
+            >
+              Group with link
+            </h3>
+            <span
+              class="avatar-group"
+              role="group"
+            >
+              <a
+                alt="Muhamad Husein"
+                class="rounded-full"
+                href="https://www.linkedin.com/in/muhamad-husein"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Muhamad Husein"
+              >
+                <img
+                  alt="Muhamad Husein"
+                  class="ava ava-loader rounded-full"
+                  decoding="async"
+                  draggable="false"
+                  height="84"
+                  loading="lazy"
+                  src="/img/muhamad_husein.jpg"
+                  width="84"
+                />
+              </a>
+              <a
+                alt="Siti Umaya"
+                class="rounded-full"
+                href="https://example.com/profile/siti-umaya"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Siti Umaya"
+              >
+                <img
+                  alt="Siti Umaya"
+                  class="ava ava-loader rounded-full"
+                  decoding="async"
+                  draggable="false"
+                  height="84"
+                  loading="lazy"
+                  src="/img/hijab_girl.jpg"
+                  width="84"
+                />
+              </a>
+              <a
+                alt="Angelina Rose"
+                class="rounded-full"
+                href="https://example.com/profile/angelina-rose"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Angelina Rose"
+              >
+                <img
+                  alt="Angelina Rose"
+                  class="ava ava-loader rounded-full"
+                  decoding="async"
+                  draggable="false"
+                  height="84"
+                  loading="lazy"
+                  src="/img/hijab_girl_2.webp"
+                  width="84"
+                />
+              </a>
+              <a
+                alt="Peter Parker"
+                class="rounded-full"
+                href="https://api.dicebear.com/6.x/adventurer/svg?seed=Annie&backgroundColor=b6e3f4"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Peter Parker"
+              >
+                <img
+                  alt="Peter Parker"
+                  class="ava ava-loader rounded-full"
+                  decoding="async"
+                  draggable="false"
+                  height="84"
+                  loading="lazy"
+                  src="https://api.dicebear.com/6.x/adventurer/svg?seed=Annie&backgroundColor=b6e3f4"
+                  width="84"
+                />
+              </a>
+              <span
+                class="ava ava-rest"
+                style="width: 84px; height: 84px; font-size: calc(84px / 2.25);"
+                title="John Doe Taylor"
+              >
+                +
+                1
+              </span>
+            </span>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h1
+            class="h3"
+          >
+            <code>
+              &lt;Avatar /&gt;
+            </code>
+          </h1>
+          <h1
+            class="h4"
+          >
+            Usage
+          </h1>
+          <div
+            class="p-4 mb-6 border border-solid border-gray-300 rounded"
+          >
+            <div
+              class="space-x-4"
+            >
+              <img
+                alt="Siti Umaya"
+                class="ava ava-loader"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl.jpg"
+                width="56"
+              />
+              <img
+                alt="Elizabeth Olsen"
+                class="ava ava-loader rounded"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl_2.webp"
+                width="56"
+              />
+              <img
+                alt="Jane Doe Taylor"
+                class="ava ava-loader rounded-md border-4 border-solid border-white ring-1 ring-gray-400"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl_3.jpg"
+                width="56"
+              />
+              <img
+                alt="Angelina Rose"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl_4.jpg"
+                width="56"
+              />
+            </div>
+          </div>
+          <div
+            class="p-4 mb-6 border border-solid border-gray-300 rounded"
+          >
+            <h3
+              class="h5"
+            >
+              Option Size
+            </h3>
+            <div
+              class="space-x-4"
+            >
+              <img
+                alt="Elizabeth Olsen"
+                aria-label="EO"
+                class="ava ava-light rounded"
+                decoding="async"
+                draggable="false"
+                height="26"
+                loading="lazy"
+                style="--fs: calc(26px / 2.25); --bg: #bf9197;"
+                width="26"
+              />
+              <img
+                alt="John Doe"
+                aria-label="JD"
+                class="ava ava-light rounded"
+                decoding="async"
+                draggable="false"
+                height="38"
+                loading="lazy"
+                style="--fs: calc(38px / 2.25); --bg: #a55c80;"
+                width="38"
+              />
+              <img
+                alt="Peter Parker"
+                aria-label="PP"
+                class="ava ava-dark rounded"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                style="--fs: calc(56px / 2.25); --bg: #ebae22;"
+                width="56"
+              />
+              <img
+                alt="Muhamad Husein"
+                class="ava ava-loader rounded"
+                decoding="async"
+                draggable="false"
+                height="84"
+                loading="lazy"
+                src="/img/muhamad_husein.jpg"
+                width="84"
+              />
+            </div>
+          </div>
+          <div
+            class="p-4 mb-6 border border-solid border-gray-300 rounded"
+          >
+            <h3
+              class="h5"
+            >
+              Custom Size
+            </h3>
+            <div
+              class="space-x-4"
+            >
+              <img
+                alt="Siti Umaya"
+                class="ava ava-loader"
+                decoding="async"
+                draggable="false"
+                height="90"
+                loading="lazy"
+                src="/img/hijab_girl.jpg"
+                width="90"
+              />
+              <img
+                alt="Elizabeth Olsen"
+                class="ava ava-loader rounded"
+                decoding="async"
+                draggable="false"
+                height="125"
+                loading="lazy"
+                src="/img/hijab_girl_2.webp"
+                width="125"
+              />
+              <img
+                alt="Jane Doe Taylor"
+                class="ava ava-loader rounded-md border-4 border-solid border-white ring-1 ring-gray-400"
+                decoding="async"
+                draggable="false"
+                height="165"
+                loading="lazy"
+                src="/img/hijab_girl_3.jpg"
+                width="165"
+              />
+              <img
+                alt="Angelina Rose"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="195"
+                loading="lazy"
+                src="/img/hijab_girl_4.jpg"
+                width="195"
+              />
+            </div>
+          </div>
+          <div
+            class="mb-4 border border-solid border-gray-300 rounded flex flex-row flwx-wrap bg-gray-100 overflow-hidden"
+          >
+            <div
+              class="w-3/4 grid place-content-center py-6 px-4 text-center"
+            >
+              <h5
+                class="mb-4"
+              >
+                &lt;Avatar /&gt;
+              </h5>
+              <img
+                alt="Catherine Missal"
+                class="ava ava-loader flex-none mx-auto "
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+                width="56"
+              />
+              <hr />
+              <h5
+                class="mb-4"
+              >
+                &lt;AvatarGroup /&gt;
+              </h5>
+              <span
+                class="avatar-group"
+                role="group"
+              >
+                <img
+                  alt="Muhamad Husein"
+                  class="ava ava-loader rounded-full"
+                  decoding="async"
+                  draggable="false"
+                  height="56"
+                  loading="lazy"
+                  src="/img/muhamad_husein.jpg"
+                  title="Muhamad Husein"
+                  width="56"
+                />
+                <img
+                  alt="Siti Umaya"
+                  class="ava ava-loader rounded-full"
+                  decoding="async"
+                  draggable="false"
+                  height="56"
+                  loading="lazy"
+                  src="/img/hijab_girl.jpg"
+                  title="Siti Umaya"
+                  width="56"
+                />
+                <img
+                  alt="Elizabeth Olsen"
+                  class="ava ava-loader rounded-full"
+                  decoding="async"
+                  draggable="false"
+                  height="56"
+                  loading="lazy"
+                  src="/img/hijab_girl_2.webp"
+                  title="Elizabeth Olsen"
+                  width="56"
+                />
+                <img
+                  alt="Jane Doe Taylor"
+                  class="ava ava-loader rounded-full"
+                  decoding="async"
+                  draggable="false"
+                  height="56"
+                  loading="lazy"
+                  src="/img/hijab_girl_3.jpg"
+                  title="Jane Doe Taylor"
+                  width="56"
+                />
+                <img
+                  alt="Bruce Wayne"
+                  aria-label="BW"
+                  class="ava ava-dark rounded-full"
+                  decoding="async"
+                  draggable="false"
+                  height="56"
+                  loading="lazy"
+                  style="--fs: calc(56px / 2.25); --bg: #8de86d;"
+                  title="Bruce Wayne"
+                  width="56"
+                />
+                <span
+                  class="ava ava-rest"
+                  style="width: 56px; height: 56px; font-size: calc(56px / 2.25);"
+                  title="Angelina Rose
+Diana Prince
+Peter Parker"
+                >
+                  +
+                  3
+                </span>
+              </span>
+            </div>
+            <div
+              class="w-1/4 p-4 bg-white"
+            >
+              <h6>
+                &lt;Avatar /&gt;
+              </h6>
+              <div
+                class="space-y-4"
+              >
+                <div>
+                  <label
+                    for="inputSrcAvatar"
+                  >
+                    src
+                  </label>
+                  <input
+                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                    id="inputSrcAvatar"
+                    type="url"
+                    value="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="inputSrcAvatarAlt"
+                  >
+                    alt
+                  </label>
+                  <input
+                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                    id="inputSrcAvatarAlt"
+                    type="text"
+                    value="Catherine Missal"
+                  />
+                </div>
+                <div>
+                  <div
+                    class="flex items-center mb-1"
+                  >
+                    <label
+                      for="inputSizeAvatar"
+                    >
+                      size
+                    </label>
+                    <label
+                      class="inline-flex items-center ml-auto"
+                    >
+                      <input
+                        type="checkbox"
+                      />
+                      Custom
+                    </label>
+                  </div>
+                  <select
+                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                    id="inputSizeAvatar"
+                  >
+                    <option
+                      value="xs"
+                    >
+                      xs
+                    </option>
+                    <option
+                      value="sm"
+                    >
+                      sm
+                    </option>
+                    <option
+                      value="md"
+                    >
+                      md
+                    </option>
+                    <option
+                      value="lg"
+                    >
+                      lg
+                    </option>
+                  </select>
+                </div>
+                <div>
+                  <label
+                    for="inputAvatarRadius"
+                  >
+                    radius
+                  </label>
+                  <select
+                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                    id="inputAvatarRadius"
+                  >
+                    <option
+                      value=""
+                    >
+                      none
+                    </option>
+                    <option
+                      value="rounded-full"
+                    >
+                      rounded-full
+                    </option>
+                    <option
+                      value="rounded"
+                    >
+                      rounded
+                    </option>
+                    <option
+                      value="rounded-sm"
+                    >
+                      rounded-sm
+                    </option>
+                    <option
+                      value="rounded-md"
+                    >
+                      rounded-md
+                    </option>
+                    <option
+                      value="rounded-lg"
+                    >
+                      rounded-lg
+                    </option>
+                    <option
+                      value="rounded-xl"
+                    >
+                      rounded-xl
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <hr />
+              <h6>
+                &lt;AvatarGroup /&gt;
+              </h6>
+              <div
+                class="space-y-4 "
+              >
+                <div>
+                  <div
+                    class="flex items-center mb-1"
+                  >
+                    <label
+                      for="inputSizeAvatarGroup"
+                    >
+                      size
+                    </label>
+                    <label
+                      class="inline-flex items-center ml-auto"
+                    >
+                      <input
+                        type="checkbox"
+                      />
+                      Custom
+                    </label>
+                  </div>
+                  <select
+                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                    id="inputSizeAvatarGroup"
+                  >
+                    <option
+                      value="xs"
+                    >
+                      xs
+                    </option>
+                    <option
+                      value="sm"
+                    >
+                      sm
+                    </option>
+                    <option
+                      value="md"
+                    >
+                      md
+                    </option>
+                    <option
+                      value="lg"
+                    >
+                      lg
+                    </option>
+                  </select>
+                </div>
+                <div>
+                  <label
+                    for="inputMaxLength"
+                  >
+                    maxLength
+                  </label>
+                  <input
+                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                    id="inputMaxLength"
+                    min="0"
+                    type="number"
+                    value="5"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="bg-yellow-50 sticky top-0 z-10 shadow-md"
+    >
+      <div
+        class="flex items-center py-2 px-4 max-w-screen-xl mx-auto"
+      >
+        <a
+          class="no-underline font-bold py-1 text-lg"
+          href="/"
+        >
+          Avatar
+        </a>
+        <a
+          class="no-underline font-semibold flex mr-6 ml-auto"
+          href="https://github.com/M-Husein/q-react-avatar"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="github"
+            class="block mr-2"
+            height="25"
+            src="/img/github.svg"
+          />
+          Repo
+        </a>
+        <a
+          class="no-underline"
+          href="https://github.com/M-Husein"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="github"
+            class="block"
+            height="25"
+            src="/img/github.svg"
+          />
+        </a>
+        <a
+          class="no-underline ml-4"
+          href="https://www.linkedin.com/in/muhamad-husein"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="github"
+            class="block"
+            height="25"
+            src="/img/linkedin.svg"
+          />
+        </a>
+      </div>
+    </nav>
+    <div
+      class="p-4"
+    >
+      <section>
+        <h1
+          class="h3"
+        >
+          <code>
+            &lt;AvatarGroup /&gt;
+          </code>
+        </h1>
+        <h2
+          class="h4"
+        >
+          Usage
+        </h2>
+        <div
+          class="p-4 mb-6 border border-solid border-gray-300 rounded"
+        >
+          <h3
+            class="h5"
+          >
+            <code>
+              size="xs"
+            </code>
+          </h3>
+          <span
+            class="avatar-group"
+            role="group"
+          >
+            <img
+              alt="Muhamad Husein"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="26"
+              loading="lazy"
+              src="/img/muhamad_husein.jpg"
+              title="Muhamad Husein"
+              width="26"
+            />
+            <img
+              alt="Siti Umaya"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="26"
+              loading="lazy"
+              src="/img/hijab_girl.jpg"
+              title="Siti Umaya"
+              width="26"
+            />
+            <img
+              alt="Elizabeth Olsen"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="26"
+              loading="lazy"
+              src="/img/hijab_girl_2.webp"
+              title="Elizabeth Olsen"
+              width="26"
+            />
+            <img
+              alt="Jane Doe Taylor"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="26"
+              loading="lazy"
+              src="/img/hijab_girl_3.jpg"
+              title="Jane Doe Taylor"
+              width="26"
+            />
+            <img
+              alt="Bruce Wayne"
+              aria-label="BW"
+              class="ava ava-dark rounded-full"
+              decoding="async"
+              draggable="false"
+              height="26"
+              loading="lazy"
+              style="--fs: calc(26px / 2.25); --bg: #8de86d;"
+              title="Bruce Wayne"
+              width="26"
+            />
+            <span
+              class="ava ava-rest"
+              style="width: 26px; height: 26px; font-size: calc(26px / 2.25);"
+              title="Angelina Rose
+Diana Prince
+Peter Parker"
+            >
+              +
+              3
+            </span>
+          </span>
+        </div>
+        <div
+          class="p-4 mb-6 border border-solid border-gray-300 rounded"
+        >
+          <h3
+            class="h5"
+          >
+            <code>
+              size="sm"
+            </code>
+          </h3>
+          <span
+            class="avatar-group"
+            role="group"
+          >
+            <img
+              alt="Muhamad Husein"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="38"
+              loading="lazy"
+              src="/img/muhamad_husein.jpg"
+              title="Muhamad Husein"
+              width="38"
+            />
+            <img
+              alt="Siti Umaya"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="38"
+              loading="lazy"
+              src="/img/hijab_girl.jpg"
+              title="Siti Umaya"
+              width="38"
+            />
+            <img
+              alt="Elizabeth Olsen"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="38"
+              loading="lazy"
+              src="/img/hijab_girl_2.webp"
+              title="Elizabeth Olsen"
+              width="38"
+            />
+            <img
+              alt="Jane Doe Taylor"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="38"
+              loading="lazy"
+              src="/img/hijab_girl_3.jpg"
+              title="Jane Doe Taylor"
+              width="38"
+            />
+            <img
+              alt="Bruce Wayne"
+              aria-label="BW"
+              class="ava ava-dark rounded-full"
+              decoding="async"
+              draggable="false"
+              height="38"
+              loading="lazy"
+              style="--fs: calc(38px / 2.25); --bg: #8de86d;"
+              title="Bruce Wayne"
+              width="38"
+            />
+            <span
+              class="ava ava-rest"
+              style="width: 38px; height: 38px; font-size: calc(38px / 2.25);"
+              title="Angelina Rose
+Diana Prince
+Peter Parker"
+            >
+              +
+              3
+            </span>
+          </span>
+        </div>
+        <div
+          class="p-4 mb-6 border border-solid border-gray-300 rounded"
+        >
+          <h3
+            class="h5"
+          >
+            Default (
+            <code>
+              size="md"
+            </code>
+            )
+          </h3>
+          <span
+            class="avatar-group"
+            role="group"
+          >
+            <img
+              alt="Muhamad Husein"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/muhamad_husein.jpg"
+              title="Muhamad Husein"
+              width="56"
+            />
+            <img
+              alt="Siti Umaya"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/hijab_girl.jpg"
+              title="Siti Umaya"
+              width="56"
+            />
+            <img
+              alt="Elizabeth Olsen"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/hijab_girl_2.webp"
+              title="Elizabeth Olsen"
+              width="56"
+            />
+            <img
+              alt="Jane Doe Taylor"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/hijab_girl_3.jpg"
+              title="Jane Doe Taylor"
+              width="56"
+            />
+            <img
+              alt="Bruce Wayne"
+              aria-label="BW"
+              class="ava ava-dark rounded-full"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              style="--fs: calc(56px / 2.25); --bg: #8de86d;"
+              title="Bruce Wayne"
+              width="56"
+            />
+            <span
+              class="ava ava-rest"
+              style="width: 56px; height: 56px; font-size: calc(56px / 2.25);"
+              title="Angelina Rose
+Diana Prince
+Peter Parker"
+            >
+              +
+              3
+            </span>
+          </span>
+        </div>
+        <div
+          class="p-4 mb-6 border border-solid border-gray-300 rounded"
+        >
+          <h3
+            class="h5"
+          >
+            <code>
+              size="lg"
+            </code>
+          </h3>
+          <span
+            class="avatar-group"
+            role="group"
+          >
+            <img
+              alt="Muhamad Husein"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="84"
+              loading="lazy"
+              src="/img/muhamad_husein.jpg"
+              title="Muhamad Husein"
+              width="84"
+            />
+            <img
+              alt="Siti Umaya"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="84"
+              loading="lazy"
+              src="/img/hijab_girl.jpg"
+              title="Siti Umaya"
+              width="84"
+            />
+            <img
+              alt="Elizabeth Olsen"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="84"
+              loading="lazy"
+              src="/img/hijab_girl_2.webp"
+              title="Elizabeth Olsen"
+              width="84"
+            />
+            <img
+              alt="Jane Doe Taylor"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="84"
+              loading="lazy"
+              src="/img/hijab_girl_3.jpg"
+              title="Jane Doe Taylor"
+              width="84"
+            />
+            <img
+              alt="Bruce Wayne"
+              aria-label="BW"
+              class="ava ava-dark rounded-full"
+              decoding="async"
+              draggable="false"
+              height="84"
+              loading="lazy"
+              style="--fs: calc(84px / 2.25); --bg: #8de86d;"
+              title="Bruce Wayne"
+              width="84"
+            />
+            <span
+              class="ava ava-rest"
+              style="width: 84px; height: 84px; font-size: calc(84px / 2.25);"
+              title="Angelina Rose
+Diana Prince
+Peter Parker"
+            >
+              +
+              3
+            </span>
+          </span>
+        </div>
+        <div
+          class="p-4 mb-6 border border-solid border-gray-300 rounded"
+        >
+          <h3
+            class="h5"
+          >
+            Custom 
+            <code>
+              size={125}
+            </code>
+          </h3>
+          <span
+            class="avatar-group"
+            role="group"
+          >
+            <img
+              alt="Muhamad Husein"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="125"
+              loading="lazy"
+              src="/img/muhamad_husein.jpg"
+              title="Muhamad Husein"
+              width="125"
+            />
+            <img
+              alt="Siti Umaya"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="125"
+              loading="lazy"
+              src="/img/hijab_girl.jpg"
+              title="Siti Umaya"
+              width="125"
+            />
+            <img
+              alt="Elizabeth Olsen"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="125"
+              loading="lazy"
+              src="/img/hijab_girl_2.webp"
+              title="Elizabeth Olsen"
+              width="125"
+            />
+            <img
+              alt="Jane Doe Taylor"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="125"
+              loading="lazy"
+              src="/img/hijab_girl_3.jpg"
+              title="Jane Doe Taylor"
+              width="125"
+            />
+            <img
+              alt="Bruce Wayne"
+              aria-label="BW"
+              class="ava ava-dark rounded-full"
+              decoding="async"
+              draggable="false"
+              height="125"
+              loading="lazy"
+              style="--fs: calc(125px / 2.25); --bg: #8de86d;"
+              title="Bruce Wayne"
+              width="125"
+            />
+            <span
+              class="ava ava-rest"
+              style="width: 125px; height: 125px; font-size: calc(125px / 2.25);"
+              title="Angelina Rose
+Diana Prince
+Peter Parker"
+            >
+              +
+              3
+            </span>
+          </span>
+        </div>
+        <div
+          class="p-4 mb-6 border border-solid border-gray-300 rounded"
+        >
+          <h3
+            class="h5"
+          >
+            <code>
+              maxLength={4}
+            </code>
+          </h3>
+          <span
+            class="avatar-group"
+            role="group"
+          >
+            <img
+              alt="Muhamad Husein"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/muhamad_husein.jpg"
+              title="Muhamad Husein"
+              width="56"
+            />
+            <img
+              alt="Siti Umaya"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/hijab_girl.jpg"
+              title="Siti Umaya"
+              width="56"
+            />
+            <img
+              alt="Elizabeth Olsen"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/hijab_girl_2.webp"
+              title="Elizabeth Olsen"
+              width="56"
+            />
+            <img
+              alt="Jane Doe Taylor"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/hijab_girl_3.jpg"
+              title="Jane Doe Taylor"
+              width="56"
+            />
+            <span
+              class="ava ava-rest"
+              style="width: 56px; height: 56px; font-size: calc(56px / 2.25);"
+              title="Bruce Wayne
+Angelina Rose
+Diana Prince
+Peter Parker"
+            >
+              +
+              4
+            </span>
+          </span>
+          <details
+            class="mt-4"
+          >
+            <summary
+              class="py-1 cursor-pointer hover:bg-blue-100"
+            >
+              CODE
+            </summary>
+            <pre
+              class="mt-0 border border-solid border-gray-300 p-4"
+            >
+              &lt;AvatarGroup
+  maxLength={4}
+&gt;
+  &lt;Avatar src="/img/muhamad_husein.jpg" alt="Muhamad Husein" className="rounded-full" /&gt;
+  &lt;Avatar src="/img/hijab_girl.jpg" alt="Siti Umaya" className="rounded-full" /&gt;
+  &lt;Avatar src="/img/hijab_girl_2.webp" alt="Elizabeth Olsen" className="rounded-full" /&gt;
+  &lt;Avatar src="/img/hijab_girl_3.jpg" alt="Jane Doe Taylor" className="rounded-full" /&gt;
+  &lt;Avatar alt="Bruce Wayne" className="rounded-full" /&gt;
+  &lt;Avatar src="/img/hijab_girl_4.jpg" alt="Angelina Rose" className="rounded-full" /&gt;
+  &lt;Avatar alt="Diana Prince" className="rounded-full" /&gt;
+  &lt;Avatar alt="Peter Parker" className="rounded-full" /&gt;
+&lt;/AvatarGroup&gt;
+            </pre>
+          </details>
+        </div>
+        <div
+          class="p-4 mb-6 border border-solid border-gray-300 rounded"
+        >
+          <h3
+            class="h5"
+          >
+            Group with link
+          </h3>
+          <span
+            class="avatar-group"
+            role="group"
+          >
+            <a
+              alt="Muhamad Husein"
+              class="rounded-full"
+              href="https://www.linkedin.com/in/muhamad-husein"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Muhamad Husein"
+            >
+              <img
+                alt="Muhamad Husein"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="84"
+                loading="lazy"
+                src="/img/muhamad_husein.jpg"
+                width="84"
+              />
+            </a>
+            <a
+              alt="Siti Umaya"
+              class="rounded-full"
+              href="https://example.com/profile/siti-umaya"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Siti Umaya"
+            >
+              <img
+                alt="Siti Umaya"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="84"
+                loading="lazy"
+                src="/img/hijab_girl.jpg"
+                width="84"
+              />
+            </a>
+            <a
+              alt="Angelina Rose"
+              class="rounded-full"
+              href="https://example.com/profile/angelina-rose"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Angelina Rose"
+            >
+              <img
+                alt="Angelina Rose"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="84"
+                loading="lazy"
+                src="/img/hijab_girl_2.webp"
+                width="84"
+              />
+            </a>
+            <a
+              alt="Peter Parker"
+              class="rounded-full"
+              href="https://api.dicebear.com/6.x/adventurer/svg?seed=Annie&backgroundColor=b6e3f4"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Peter Parker"
+            >
+              <img
+                alt="Peter Parker"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="84"
+                loading="lazy"
+                src="https://api.dicebear.com/6.x/adventurer/svg?seed=Annie&backgroundColor=b6e3f4"
+                width="84"
+              />
+            </a>
+            <span
+              class="ava ava-rest"
+              style="width: 84px; height: 84px; font-size: calc(84px / 2.25);"
+              title="John Doe Taylor"
+            >
+              +
+              1
+            </span>
+          </span>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <h1
+          class="h3"
+        >
+          <code>
+            &lt;Avatar /&gt;
+          </code>
+        </h1>
+        <h1
+          class="h4"
+        >
+          Usage
+        </h1>
+        <div
+          class="p-4 mb-6 border border-solid border-gray-300 rounded"
+        >
+          <div
+            class="space-x-4"
+          >
+            <img
+              alt="Siti Umaya"
+              class="ava ava-loader"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/hijab_girl.jpg"
+              width="56"
+            />
+            <img
+              alt="Elizabeth Olsen"
+              class="ava ava-loader rounded"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/hijab_girl_2.webp"
+              width="56"
+            />
+            <img
+              alt="Jane Doe Taylor"
+              class="ava ava-loader rounded-md border-4 border-solid border-white ring-1 ring-gray-400"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/hijab_girl_3.jpg"
+              width="56"
+            />
+            <img
+              alt="Angelina Rose"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="/img/hijab_girl_4.jpg"
+              width="56"
+            />
+          </div>
+        </div>
+        <div
+          class="p-4 mb-6 border border-solid border-gray-300 rounded"
+        >
+          <h3
+            class="h5"
+          >
+            Option Size
+          </h3>
+          <div
+            class="space-x-4"
+          >
+            <img
+              alt="Elizabeth Olsen"
+              aria-label="EO"
+              class="ava ava-light rounded"
+              decoding="async"
+              draggable="false"
+              height="26"
+              loading="lazy"
+              style="--fs: calc(26px / 2.25); --bg: #bf9197;"
+              width="26"
+            />
+            <img
+              alt="John Doe"
+              aria-label="JD"
+              class="ava ava-light rounded"
+              decoding="async"
+              draggable="false"
+              height="38"
+              loading="lazy"
+              style="--fs: calc(38px / 2.25); --bg: #a55c80;"
+              width="38"
+            />
+            <img
+              alt="Peter Parker"
+              aria-label="PP"
+              class="ava ava-dark rounded"
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              style="--fs: calc(56px / 2.25); --bg: #ebae22;"
+              width="56"
+            />
+            <img
+              alt="Muhamad Husein"
+              class="ava ava-loader rounded"
+              decoding="async"
+              draggable="false"
+              height="84"
+              loading="lazy"
+              src="/img/muhamad_husein.jpg"
+              width="84"
+            />
+          </div>
+        </div>
+        <div
+          class="p-4 mb-6 border border-solid border-gray-300 rounded"
+        >
+          <h3
+            class="h5"
+          >
+            Custom Size
+          </h3>
+          <div
+            class="space-x-4"
+          >
+            <img
+              alt="Siti Umaya"
+              class="ava ava-loader"
+              decoding="async"
+              draggable="false"
+              height="90"
+              loading="lazy"
+              src="/img/hijab_girl.jpg"
+              width="90"
+            />
+            <img
+              alt="Elizabeth Olsen"
+              class="ava ava-loader rounded"
+              decoding="async"
+              draggable="false"
+              height="125"
+              loading="lazy"
+              src="/img/hijab_girl_2.webp"
+              width="125"
+            />
+            <img
+              alt="Jane Doe Taylor"
+              class="ava ava-loader rounded-md border-4 border-solid border-white ring-1 ring-gray-400"
+              decoding="async"
+              draggable="false"
+              height="165"
+              loading="lazy"
+              src="/img/hijab_girl_3.jpg"
+              width="165"
+            />
+            <img
+              alt="Angelina Rose"
+              class="ava ava-loader rounded-full"
+              decoding="async"
+              draggable="false"
+              height="195"
+              loading="lazy"
+              src="/img/hijab_girl_4.jpg"
+              width="195"
+            />
+          </div>
+        </div>
+        <div
+          class="mb-4 border border-solid border-gray-300 rounded flex flex-row flwx-wrap bg-gray-100 overflow-hidden"
+        >
+          <div
+            class="w-3/4 grid place-content-center py-6 px-4 text-center"
+          >
+            <h5
+              class="mb-4"
+            >
+              &lt;Avatar /&gt;
+            </h5>
+            <img
+              alt="Catherine Missal"
+              class="ava ava-loader flex-none mx-auto "
+              decoding="async"
+              draggable="false"
+              height="56"
+              loading="lazy"
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+              width="56"
+            />
+            <hr />
+            <h5
+              class="mb-4"
+            >
+              &lt;AvatarGroup /&gt;
+            </h5>
+            <span
+              class="avatar-group"
+              role="group"
+            >
+              <img
+                alt="Muhamad Husein"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/muhamad_husein.jpg"
+                title="Muhamad Husein"
+                width="56"
+              />
+              <img
+                alt="Siti Umaya"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl.jpg"
+                title="Siti Umaya"
+                width="56"
+              />
+              <img
+                alt="Elizabeth Olsen"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl_2.webp"
+                title="Elizabeth Olsen"
+                width="56"
+              />
+              <img
+                alt="Jane Doe Taylor"
+                class="ava ava-loader rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                src="/img/hijab_girl_3.jpg"
+                title="Jane Doe Taylor"
+                width="56"
+              />
+              <img
+                alt="Bruce Wayne"
+                aria-label="BW"
+                class="ava ava-dark rounded-full"
+                decoding="async"
+                draggable="false"
+                height="56"
+                loading="lazy"
+                style="--fs: calc(56px / 2.25); --bg: #8de86d;"
+                title="Bruce Wayne"
+                width="56"
+              />
+              <span
+                class="ava ava-rest"
+                style="width: 56px; height: 56px; font-size: calc(56px / 2.25);"
+                title="Angelina Rose
+Diana Prince
+Peter Parker"
+              >
+                +
+                3
+              </span>
+            </span>
+          </div>
+          <div
+            class="w-1/4 p-4 bg-white"
+          >
+            <h6>
+              &lt;Avatar /&gt;
+            </h6>
+            <div
+              class="space-y-4"
+            >
+              <div>
+                <label
+                  for="inputSrcAvatar"
+                >
+                  src
+                </label>
+                <input
+                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                  id="inputSrcAvatar"
+                  type="url"
+                  value="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+                />
+              </div>
+              <div>
+                <label
+                  for="inputSrcAvatarAlt"
+                >
+                  alt
+                </label>
+                <input
+                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                  id="inputSrcAvatarAlt"
+                  type="text"
+                  value="Catherine Missal"
+                />
+              </div>
+              <div>
+                <div
+                  class="flex items-center mb-1"
+                >
+                  <label
+                    for="inputSizeAvatar"
+                  >
+                    size
+                  </label>
+                  <label
+                    class="inline-flex items-center ml-auto"
+                  >
+                    <input
+                      type="checkbox"
+                    />
+                    Custom
+                  </label>
+                </div>
+                <select
+                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                  id="inputSizeAvatar"
+                >
+                  <option
+                    value="xs"
+                  >
+                    xs
+                  </option>
+                  <option
+                    value="sm"
+                  >
+                    sm
+                  </option>
+                  <option
+                    value="md"
+                  >
+                    md
+                  </option>
+                  <option
+                    value="lg"
+                  >
+                    lg
+                  </option>
+                </select>
+              </div>
+              <div>
+                <label
+                  for="inputAvatarRadius"
+                >
+                  radius
+                </label>
+                <select
+                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                  id="inputAvatarRadius"
+                >
+                  <option
+                    value=""
+                  >
+                    none
+                  </option>
+                  <option
+                    value="rounded-full"
+                  >
+                    rounded-full
+                  </option>
+                  <option
+                    value="rounded"
+                  >
+                    rounded
+                  </option>
+                  <option
+                    value="rounded-sm"
+                  >
+                    rounded-sm
+                  </option>
+                  <option
+                    value="rounded-md"
+                  >
+                    rounded-md
+                  </option>
+                  <option
+                    value="rounded-lg"
+                  >
+                    rounded-lg
+                  </option>
+                  <option
+                    value="rounded-xl"
+                  >
+                    rounded-xl
+                  </option>
+                </select>
+              </div>
+            </div>
+            <hr />
+            <h6>
+              &lt;AvatarGroup /&gt;
+            </h6>
+            <div
+              class="space-y-4 "
+            >
+              <div>
+                <div
+                  class="flex items-center mb-1"
+                >
+                  <label
+                    for="inputSizeAvatarGroup"
+                  >
+                    size
+                  </label>
+                  <label
+                    class="inline-flex items-center ml-auto"
+                  >
+                    <input
+                      type="checkbox"
+                    />
+                    Custom
+                  </label>
+                </div>
+                <select
+                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                  id="inputSizeAvatarGroup"
+                >
+                  <option
+                    value="xs"
+                  >
+                    xs
+                  </option>
+                  <option
+                    value="sm"
+                  >
+                    sm
+                  </option>
+                  <option
+                    value="md"
+                  >
+                    md
+                  </option>
+                  <option
+                    value="lg"
+                  >
+                    lg
+                  </option>
+                </select>
+              </div>
+              <div>
+                <label
+                  for="inputMaxLength"
+                >
+                  maxLength
+                </label>
+                <input
+                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                  id="inputMaxLength"
+                  min="0"
+                  type="number"
+                  value="5"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

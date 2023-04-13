@@ -15,22 +15,34 @@ const IMAGES = [
 ];
 
 describe('AvatarGroup component', () => {
-  // it('renders <AvatarGroup /> default props', () => {
-  //   render(
-  //     <AvatarGroup
-  //       className="avatar-group-default-props"
-  //     >
-  //       {IMAGES.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.alt} className="rounded-full" />)}
-  //     </AvatarGroup>
-  //   );
+  it('AvatarGroup component - should check render with snapshot', () => {
+    const component = render(
+      <AvatarGroup
+        className="avatar-group-snapshot"
+      >
+        {IMAGES.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.alt} className="rounded-full" />)}
+      </AvatarGroup>
+    );
+    // @ts-ignore
+    expect(component).toMatchSnapshot();
+  });
 
-  //   // @ts-ignore
-  //   expect(screen.getByRole('group')).toBeInTheDocument();
-  //   // @ts-ignore
-  //   expect(screen.getByRole('group')).toHaveAttribute('class', 'avatar-group avatar-group-default-props');
+  it('renders <AvatarGroup /> default props', () => {
+    render(
+      <AvatarGroup
+        className="avatar-group-default-props"
+      >
+        {IMAGES.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.alt} className="rounded-full" />)}
+      </AvatarGroup>
+    );
 
-  //   screen.debug();
-  // });
+    // @ts-ignore
+    expect(screen.getByRole('group')).toBeInTheDocument();
+    // @ts-ignore
+    expect(screen.getByRole('group')).toHaveAttribute('class', 'avatar-group avatar-group-default-props');
+
+    screen.debug();
+  });
 
   it('with maxLength props', () => {
     const { container } = render(
@@ -66,6 +78,24 @@ describe('AvatarGroup component', () => {
     expect(screen.getByRole('group')).toBeInTheDocument();
     // @ts-ignore
     expect(container.querySelector('img.ava[width="125"]')).toBeInTheDocument();
+
+    screen.debug();
+  });
+
+  it('render as div', () => {
+    const { container } = render(
+      <AvatarGroup
+        As="div"
+        className="avatar-group-as-div"
+      >
+        {IMAGES.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.alt} className="rounded-full" />)}
+      </AvatarGroup>
+    );
+
+    // @ts-ignore
+    expect(screen.getByRole('group')).toBeInTheDocument();
+    // @ts-ignore
+    expect(container.querySelector('img.ava')).toBeInTheDocument();
 
     screen.debug();
   });

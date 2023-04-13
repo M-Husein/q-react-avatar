@@ -1,5 +1,8 @@
-// size = xs = 26, sm = 38, md = 56, lg = 84
-export const parseSize = (size: number | string) => {
+/**
+ * @param size = xs = 26 | sm = 38 | md = 56 | lg = 84 | number
+ * @returns 
+ */
+export const parseSize = (size: number | "xs" | "sm" | "md" | "lg") => {
   if(typeof size === 'number'){
     return size;
   }

@@ -5,14 +5,25 @@ import { Avatar } from './Avatar';
 const SRC = 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80';
 
 describe('Avatar component', () => {
-  it('renders <Avatar />', () => {
+  it('Avatar component - should check render with snapshot', () => {
+    const component = render(
+      <Avatar
+        src={SRC}
+        alt="Catherine Missal"
+      />
+    );
+    // @ts-ignore
+    expect(component).toMatchSnapshot();
+  });
+
+  it('renders <Avatar /> default props', () => {
     render(
       <Avatar
         src={SRC}
         alt="Catherine Missal"
       />
     );
-
+    
     // @ts-ignore
     expect(screen.getByAltText('Catherine Missal')).toBeInTheDocument();
     // @ts-ignore
