@@ -12,14 +12,14 @@ const OPTION_SIZE = [
 ];
 
 const GROUPS = [
-  { name: "Muhamad Husein", src: "/img/muhamad_husein.jpg" },
-  { name: "Siti Umaya", src: "/img/hijab_girl.jpg" },
-  { name: "Elizabeth Olsen", src: "/img/hijab_girl_2.webp" },
-  { name: "Jane Doe Taylor", src: "/img/hijab_girl_3.jpg" },
-  { name: "Bruce Wayne" },
-  { name: "Angelina Rose", src: "/img/hijab_girl_4.jpg" },
-  { name: "Diana Prince" },
-  { name: "Peter Parker" },
+  { id: 1, name: "Muhamad Husein", src: "/img/muhamad_husein.jpg" },
+  { id: 2, name: "Siti Umaya", src: "/img/hijab_girl.jpg" },
+  { id: 3, name: "Elizabeth Olsen", src: "/img/hijab_girl_2.webp" },
+  { id: 4, name: "Jane Doe Taylor", src: "/img/hijab_girl_3.jpg" },
+  { id: 5, name: "Bruce Wayne" },
+  { id: 6, name: "Angelina Rose", src: "/img/hijab_girl_4.jpg" },
+  { id: 7, name: "Diana Prince" },
+  { id: 8, name: "Peter Parker" },
 ];
 
 function App(){
@@ -71,7 +71,7 @@ function App(){
               size="xs"
               maxLength={5}
             >
-              {GROUPS.map((item: any) => <Avatar key={item.src} src={item.src} alt={item.name} className="rounded-full" />)}
+              {GROUPS.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.name} className="rounded-full" />)}
             </AvatarGroup>
           </div>
           
@@ -81,7 +81,7 @@ function App(){
               size="sm"
               maxLength={5}
             >
-              {GROUPS.map((item: any) => <Avatar key={item.src} src={item.src} alt={item.name} className="rounded-full" />)}
+              {GROUPS.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.name} className="rounded-full" />)}
             </AvatarGroup>
           </div>
 
@@ -90,7 +90,7 @@ function App(){
             <AvatarGroup
               maxLength={5}
             >
-              {GROUPS.map((item: any) => <Avatar key={item.src} src={item.src} alt={item.name} className="rounded-full" />)}
+              {GROUPS.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.name} className="rounded-full" />)}
             </AvatarGroup>
           </div>
 
@@ -100,7 +100,7 @@ function App(){
               size="lg"
               maxLength={5}
             >
-              {GROUPS.map((item: any) => <Avatar key={item.src} src={item.src} alt={item.name} className="rounded-full" />)}
+              {GROUPS.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.name} className="rounded-full" />)}
             </AvatarGroup>
           </div>
 
@@ -110,7 +110,7 @@ function App(){
               size={125}
               maxLength={5}
             >
-              {GROUPS.map((item: any) => <Avatar key={item.src} src={item.src} alt={item.name} className="rounded-full" />)}
+              {GROUPS.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.name} className="rounded-full" />)}
             </AvatarGroup>
           </div>
 
@@ -119,7 +119,7 @@ function App(){
             <AvatarGroup
               maxLength={4}
             >
-              {GROUPS.map((item: any) => <Avatar key={item.src} src={item.src} alt={item.name} className="rounded-full" />)}
+              {GROUPS.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.name} className="rounded-full" />)}
             </AvatarGroup>
             <details className="mt-4">
               <summary className="py-1 cursor-pointer hover:bg-blue-100">CODE</summary>
@@ -219,7 +219,7 @@ function App(){
                 size={avatarGroupSize}
                 maxLength={avatarGroupMaxLength}
               >
-                {GROUPS.map((item: any) => <Avatar key={item.src} src={item.src} alt={item.name} className="rounded-full" />)}
+                {GROUPS.map((item: any) => <Avatar key={item.id} src={item.src} alt={item.name} className="rounded-full" />)}
               </AvatarGroup>
             </div>
             <div className="w-1/4 p-4 bg-white">
