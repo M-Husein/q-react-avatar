@@ -1,0 +1,38 @@
+// 
+.avatar-group  {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.avatar-group > * {
+  position: relative;
+  display: block;
+  border: 3.5px solid #fff;
+  flex: none;
+  text-decoration: none;
+}
+
+.avatar-group img.ava {
+  display: block;
+}
+
+.avatar-group > *:hover {
+  z-index: 1;
+}
+
+// .avatar-group > .ava + .ava {
+//   margin-left: -1.5%;
+// }
+
+.ava.ava-rest {
+  display: grid;
+  place-content: center;
+  line-height: 1;
+  color: #757a87;
+  background-color: #e6e9f3;
+  border-radius: 50%;
+  font-weight: 600;
+}
