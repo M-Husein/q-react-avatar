@@ -55,7 +55,7 @@ export const Avatar = forwardRef<HTMLImageElement, any>(
         '--fs': 'calc(' + fixSize + 'px / 2.25)',
         '--bg': '#' + color
       };
-      initName = getInitials(trm);
+      initName = getInitials(trm) || '?';
       errClass = setDarkLight(color);
       initLoad = false;
     }
@@ -79,7 +79,7 @@ export const Avatar = forwardRef<HTMLImageElement, any>(
       if(!initial){
         color = bg ? bg.replace('#', '') : str2Hex(trm);
   
-        setInitial(getInitials(trm));
+        setInitial(getInitials(trm) || '?');
         setErrorClass(setDarkLight(color));
         setErrorStyle({
           '--fs': 'calc(' + fixSize + 'px / 2.25)',
