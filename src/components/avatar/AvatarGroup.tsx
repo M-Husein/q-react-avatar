@@ -18,6 +18,7 @@ export function AvatarGroup({
   maxLength = 0,
   size = 'md',
   children,
+  ...etc
 }: AvatarGroupProps){
   const fixSize = parseSize(size);
   const childs = Children.toArray(children);
@@ -29,7 +30,7 @@ export function AvatarGroup({
     return {
       ...item,
       props: {
-        ...rest, // item.props
+        ...rest,
         size: child ? undefined : size,
         style: {
           ...style,
@@ -51,15 +52,14 @@ export function AvatarGroup({
     }
   });
 
-  return (
-    <As
-      role="group"
-      className={joinClasses("avatar-group", className)}
-    >
-
-      {parseDisplay}
-
-      {isMaxLength && (
+  const renderRest = () => {
+    if(isMaxLength){
+      const title = childs.slice(maxLength).map((item: any) => {
+        const props = item.props;
+        const { children } = props;
+        return children ? children.props.alt : props.alt;
+      }).join('\n');
+      return (
         <span
           className="ava ava-rest"
           style={{
@@ -68,11 +68,23 @@ export function AvatarGroup({
             fontSize: 'calc(' + fixSize + 'px / 2.25)',
             marginLeft: `calc(-${fixSize}px / 2.75)`
           }}
-          title={childs.slice(maxLength).map((item: any) => item.props.children ? item.props.children.props.alt : item.props.alt).join('\n')}
+          title={title}
         >
           +{childs.length - maxLength}
         </span>
-      )}
+      );
+    }
+  }
+
+  return (
+    <As
+      {...etc}
+      role="group"
+      className={joinClasses("avatar-group", className)}
+    >
+      {parseDisplay}
+
+      {renderRest()}
     </As>
   );
 }

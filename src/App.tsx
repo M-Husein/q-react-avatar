@@ -1,8 +1,5 @@
 import { useState } from 'react';
-// import reactLogo from './assets/react.svg';
-// import viteLogo from '/vite.svg';
-
-import { Avatar, AvatarGroup } from './components/avatar';
+import { Avatar, AvatarProps, AvatarGroup } from './components/avatar';
 
 const OPTION_SIZE = [
   { size: "xs", name: "Elizabeth Olsen" },
@@ -22,14 +19,14 @@ const GROUPS = [
   { id: 8, name: "Peter Parker" },
 ];
 
-function App(){
+export default function App(){
   const [avatarSizeNumber, setAvatarSizeNumber] = useState<boolean>(false);
-  const [avatarSize, setAvatarSize] = useState<any>('md'); // string | number
+  const [avatarSize, setAvatarSize] = useState<AvatarProps['size']>('md');
   const [avatarSrc, setAvatarSrc] = useState<any>('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80');
-  const [avatarAlt, setAvatarAlt] = useState('Catherine Missal');
-  const [avatarRadius, setAvatarRadius] = useState<any>('');
+  const [avatarAlt, setAvatarAlt] = useState<string>('Catherine Missal');
+  const [avatarRadius, setAvatarRadius] = useState<string>('');
   const [avatarGroupSizeNumber, setAvatarGroupSizeNumber] = useState<boolean>(false);
-  const [avatarGroupSize, setAvatarGroupSize] = useState<any>('md'); // <string | number>
+  const [avatarGroupSize, setAvatarGroupSize] = useState<AvatarProps['size']>('md');
   const [avatarGroupMaxLength, setAvatarGroupMaxLength] = useState<number>(5);
 
   const changeAvatarSizeNumber = () => {
@@ -160,6 +157,29 @@ function App(){
                 <Avatar alt="John Doe Taylor" className="rounded-full" />
               </a>
             </AvatarGroup>
+            <details className="mt-4">
+              <summary className="py-1 cursor-pointer hover:bg-blue-100">CODE</summary>
+              <pre className="mt-0 border border-solid border-gray-300 p-4">{`<AvatarGroup
+  size="lg"
+  maxLength={4}
+>
+  <a href="https://www.linkedin.com/in/muhamad-husein" target="_blank" rel="noopener noreferrer">
+    <Avatar src="/img/muhamad_husein.jpg" alt="Muhamad Husein" className="rounded-full" />
+  </a>
+  <a href="https://example.com/profile/siti-umaya" target="_blank" rel="noopener noreferrer">
+    <Avatar src="/img/hijab_girl.jpg" alt="Siti Umaya" className="rounded-full" />
+  </a>
+  <a href="https://example.com/profile/angelina-rose" target="_blank" rel="noopener noreferrer">
+    <Avatar src="/img/hijab_girl_2.webp" alt="Angelina Rose" className="rounded-full" />
+  </a>
+  <a href="https://api.dicebear.com/6.x/adventurer/svg?seed=Annie&backgroundColor=b6e3f4" target="_blank" rel="noopener noreferrer">
+    <Avatar src="https://api.dicebear.com/6.x/adventurer/svg?seed=Annie&backgroundColor=b6e3f4" alt="Peter Parker" className="rounded-full" />
+  </a>
+  <a href="https://avatars.dicebear.com/v2/avataaars/john-doe.svg" target="_blank" rel="noopener noreferrer">
+    <Avatar alt="John Doe Taylor" className="rounded-full" />
+  </a>
+</AvatarGroup>`}</pre>
+            </details>
           </div>
         </section>
 
@@ -175,6 +195,13 @@ function App(){
               <Avatar src="/img/hijab_girl_3.jpg" alt="Jane Doe Taylor" className="rounded-md border-4 border-solid border-white ring-1 ring-gray-400" />
               <Avatar src="/img/hijab_girl_4.jpg" alt="Angelina Rose" className="rounded-full" />
             </div>
+            <details className="mt-4">
+              <summary className="py-1 cursor-pointer hover:bg-blue-100">CODE</summary>
+              <pre className="mt-0 border border-solid border-gray-300 p-4">{`<Avatar src="/img/hijab_girl.jpg" alt="Siti Umaya" />
+<Avatar src="/img/hijab_girl_2.webp" alt="Elizabeth Olsen"className="rounded" />
+<Avatar src="/img/hijab_girl_3.jpg" alt="Jane Doe Taylor" className="rounded-md border-4 border-solid border-white ring-1 ring-gray-400" />
+<Avatar src="/img/hijab_girl_4.jpg" alt="Angelina Rose" className="rounded-full" />`}</pre>
+            </details>
           </div>
 
           <div className="p-4 mb-6 border border-solid border-gray-300 rounded">
@@ -204,7 +231,7 @@ function App(){
 
           <div className="mb-4 border border-solid border-gray-300 rounded flex flex-row flwx-wrap bg-gray-100 overflow-hidden">
             <div className="w-3/4 grid place-content-center py-6 px-4 text-center">
-              <h5 className="mb-4">{'<Avatar />'}</h5>
+              <h6 className="mb-4">{'<Avatar />'}</h6>
               <Avatar
                 size={avatarSize}
                 src={avatarSrc}
@@ -214,7 +241,7 @@ function App(){
 
               <hr />
 
-              <h5 className="mb-4">{'<AvatarGroup />'}</h5>
+              <h6 className="mb-4">{'<AvatarGroup />'}</h6>
               <AvatarGroup
                 size={avatarGroupSize}
                 maxLength={avatarGroupMaxLength}
@@ -269,7 +296,7 @@ function App(){
                     <select
                       id="inputSizeAvatar"
                       value={avatarSize}
-                      onChange={(e) => setAvatarSize(e.target.value)}
+                      onChange={(e) => setAvatarSize(e.target.value as AvatarProps['size'])}
                       className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                     >
                       {['xs', 'sm', 'md', 'lg'].map((s) => <option key={s} value={s}>{s}</option>)}
@@ -318,7 +345,7 @@ function App(){
                     <select
                       id="inputSizeAvatarGroup"
                       value={avatarGroupSize}
-                      onChange={(e) => setAvatarGroupSize(e.target.value)}
+                      onChange={(e) => setAvatarGroupSize(e.target.value as AvatarProps['size'])}
                       className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                     >
                       {['xs', 'sm', 'md', 'lg'].map((s) => <option key={s} value={s}>{s}</option>)}
@@ -345,5 +372,3 @@ function App(){
     </>
   )
 }
-
-export default App;

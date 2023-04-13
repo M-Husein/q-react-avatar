@@ -28,8 +28,6 @@ describe('Avatar component', () => {
     expect(screen.getByAltText('Catherine Missal')).toBeInTheDocument();
     // @ts-ignore
     expect(screen.getByAltText('Catherine Missal')).toHaveAttribute('src', SRC);
-
-    screen.debug();
   });
 
   it('without src', () => {
@@ -43,8 +41,6 @@ describe('Avatar component', () => {
     expect(screen.getByAltText('Muhamad Husein')).toBeInTheDocument();
     // @ts-ignore
     expect(container.querySelector('img.ava[aria-label="MH"]')).toBeInTheDocument();
-
-    screen.debug();
   });
 
   it('with size number', () => {
@@ -60,8 +56,6 @@ describe('Avatar component', () => {
     expect(screen.getByAltText('Adena')).toBeInTheDocument();
     // @ts-ignore
     expect(container.querySelector('img.ava[width="125"]')).toBeInTheDocument();
-
-    screen.debug();
   });
 
   it('with className', () => {
@@ -77,7 +71,5 @@ describe('Avatar component', () => {
     expect(screen.getByAltText('Adena')).toBeInTheDocument();
     // @ts-ignore
     expect(container.querySelector('img.rounded-full')).toBeInTheDocument();
-
-    screen.debug();
   });
 });

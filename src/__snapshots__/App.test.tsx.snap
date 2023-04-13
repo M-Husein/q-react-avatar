@@ -681,6 +681,39 @@ Peter Parker"
                 1
               </span>
             </span>
+            <details
+              class="mt-4"
+            >
+              <summary
+                class="py-1 cursor-pointer hover:bg-blue-100"
+              >
+                CODE
+              </summary>
+              <pre
+                class="mt-0 border border-solid border-gray-300 p-4"
+              >
+                &lt;AvatarGroup
+  size="lg"
+  maxLength={4}
+&gt;
+  &lt;a href="https://www.linkedin.com/in/muhamad-husein" target="_blank" rel="noopener noreferrer"&gt;
+    &lt;Avatar src="/img/muhamad_husein.jpg" alt="Muhamad Husein" className="rounded-full" /&gt;
+  &lt;/a&gt;
+  &lt;a href="https://example.com/profile/siti-umaya" target="_blank" rel="noopener noreferrer"&gt;
+    &lt;Avatar src="/img/hijab_girl.jpg" alt="Siti Umaya" className="rounded-full" /&gt;
+  &lt;/a&gt;
+  &lt;a href="https://example.com/profile/angelina-rose" target="_blank" rel="noopener noreferrer"&gt;
+    &lt;Avatar src="/img/hijab_girl_2.webp" alt="Angelina Rose" className="rounded-full" /&gt;
+  &lt;/a&gt;
+  &lt;a href="https://api.dicebear.com/6.x/adventurer/svg?seed=Annie&backgroundColor=b6e3f4" target="_blank" rel="noopener noreferrer"&gt;
+    &lt;Avatar src="https://api.dicebear.com/6.x/adventurer/svg?seed=Annie&backgroundColor=b6e3f4" alt="Peter Parker" className="rounded-full" /&gt;
+  &lt;/a&gt;
+  &lt;a href="https://avatars.dicebear.com/v2/avataaars/john-doe.svg" target="_blank" rel="noopener noreferrer"&gt;
+    &lt;Avatar alt="John Doe Taylor" className="rounded-full" /&gt;
+  &lt;/a&gt;
+&lt;/AvatarGroup&gt;
+              </pre>
+            </details>
           </div>
         </section>
         <hr />
@@ -744,6 +777,23 @@ Peter Parker"
                 width="56"
               />
             </div>
+            <details
+              class="mt-4"
+            >
+              <summary
+                class="py-1 cursor-pointer hover:bg-blue-100"
+              >
+                CODE
+              </summary>
+              <pre
+                class="mt-0 border border-solid border-gray-300 p-4"
+              >
+                &lt;Avatar src="/img/hijab_girl.jpg" alt="Siti Umaya" /&gt;
+&lt;Avatar src="/img/hijab_girl_2.webp" alt="Elizabeth Olsen"className="rounded" /&gt;
+&lt;Avatar src="/img/hijab_girl_3.jpg" alt="Jane Doe Taylor" className="rounded-md border-4 border-solid border-white ring-1 ring-gray-400" /&gt;
+&lt;Avatar src="/img/hijab_girl_4.jpg" alt="Angelina Rose" className="rounded-full" /&gt;
+              </pre>
+            </details>
           </div>
           <div
             class="p-4 mb-6 border border-solid border-gray-300 rounded"
@@ -860,11 +910,11 @@ Peter Parker"
             <div
               class="w-3/4 grid place-content-center py-6 px-4 text-center"
             >
-              <h5
+              <h6
                 class="mb-4"
               >
                 &lt;Avatar /&gt;
-              </h5>
+              </h6>
               <img
                 alt="Catherine Missal"
                 class="ava ava-loader flex-none mx-auto "
@@ -876,11 +926,11 @@ Peter Parker"
                 width="56"
               />
               <hr />
-              <h5
+              <h6
                 class="mb-4"
               >
                 &lt;AvatarGroup /&gt;
-              </h5>
+              </h6>
               <span
                 class="avatar-group"
                 role="group"
@@ -1829,6 +1879,39 @@ Peter Parker"
               1
             </span>
           </span>
+          <details
+            class="mt-4"
+          >
+            <summary
+              class="py-1 cursor-pointer hover:bg-blue-100"
+            >
+              CODE
+            </summary>
+            <pre
+              class="mt-0 border border-solid border-gray-300 p-4"
+            >
+              &lt;AvatarGroup
+  size="lg"
+  maxLength={4}
+&gt;
+  &lt;a href="https://www.linkedin.com/in/muhamad-husein" target="_blank" rel="noopener noreferrer"&gt;
+    &lt;Avatar src="/img/muhamad_husein.jpg" alt="Muhamad Husein" className="rounded-full" /&gt;
+  &lt;/a&gt;
+  &lt;a href="https://example.com/profile/siti-umaya" target="_blank" rel="noopener noreferrer"&gt;
+    &lt;Avatar src="/img/hijab_girl.jpg" alt="Siti Umaya" className="rounded-full" /&gt;
+  &lt;/a&gt;
+  &lt;a href="https://example.com/profile/angelina-rose" target="_blank" rel="noopener noreferrer"&gt;
+    &lt;Avatar src="/img/hijab_girl_2.webp" alt="Angelina Rose" className="rounded-full" /&gt;
+  &lt;/a&gt;
+  &lt;a href="https://api.dicebear.com/6.x/adventurer/svg?seed=Annie&backgroundColor=b6e3f4" target="_blank" rel="noopener noreferrer"&gt;
+    &lt;Avatar src="https://api.dicebear.com/6.x/adventurer/svg?seed=Annie&backgroundColor=b6e3f4" alt="Peter Parker" className="rounded-full" /&gt;
+  &lt;/a&gt;
+  &lt;a href="https://avatars.dicebear.com/v2/avataaars/john-doe.svg" target="_blank" rel="noopener noreferrer"&gt;
+    &lt;Avatar alt="John Doe Taylor" className="rounded-full" /&gt;
+  &lt;/a&gt;
+&lt;/AvatarGroup&gt;
+            </pre>
+          </details>
         </div>
       </section>
       <hr />
@@ -1892,6 +1975,23 @@ Peter Parker"
               width="56"
             />
           </div>
+          <details
+            class="mt-4"
+          >
+            <summary
+              class="py-1 cursor-pointer hover:bg-blue-100"
+            >
+              CODE
+            </summary>
+            <pre
+              class="mt-0 border border-solid border-gray-300 p-4"
+            >
+              &lt;Avatar src="/img/hijab_girl.jpg" alt="Siti Umaya" /&gt;
+&lt;Avatar src="/img/hijab_girl_2.webp" alt="Elizabeth Olsen"className="rounded" /&gt;
+&lt;Avatar src="/img/hijab_girl_3.jpg" alt="Jane Doe Taylor" className="rounded-md border-4 border-solid border-white ring-1 ring-gray-400" /&gt;
+&lt;Avatar src="/img/hijab_girl_4.jpg" alt="Angelina Rose" className="rounded-full" /&gt;
+            </pre>
+          </details>
         </div>
         <div
           class="p-4 mb-6 border border-solid border-gray-300 rounded"
@@ -2008,11 +2108,11 @@ Peter Parker"
           <div
             class="w-3/4 grid place-content-center py-6 px-4 text-center"
           >
-            <h5
+            <h6
               class="mb-4"
             >
               &lt;Avatar /&gt;
-            </h5>
+            </h6>
             <img
               alt="Catherine Missal"
               class="ava ava-loader flex-none mx-auto "
@@ -2024,11 +2124,11 @@ Peter Parker"
               width="56"
             />
             <hr />
-            <h5
+            <h6
               class="mb-4"
             >
               &lt;AvatarGroup /&gt;
-            </h5>
+            </h6>
             <span
               class="avatar-group"
               role="group"

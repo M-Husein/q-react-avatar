@@ -40,8 +40,6 @@ describe('AvatarGroup component', () => {
     expect(screen.getByRole('group')).toBeInTheDocument();
     // @ts-ignore
     expect(screen.getByRole('group')).toHaveAttribute('class', 'avatar-group avatar-group-default-props');
-
-    screen.debug();
   });
 
   it('with maxLength props', () => {
@@ -60,8 +58,6 @@ describe('AvatarGroup component', () => {
     expect(container.querySelector('img.ava')).toBeInTheDocument();
     // @ts-ignore
     expect(screen.getByText('+4')).toBeInTheDocument();
-
-    screen.debug();
   });
 
   it('with size number props', () => {
@@ -78,8 +74,6 @@ describe('AvatarGroup component', () => {
     expect(screen.getByRole('group')).toBeInTheDocument();
     // @ts-ignore
     expect(container.querySelector('img.ava[width="125"]')).toBeInTheDocument();
-
-    screen.debug();
   });
 
   it('render as div', () => {
@@ -96,7 +90,5 @@ describe('AvatarGroup component', () => {
     expect(screen.getByRole('group')).toBeInTheDocument();
     // @ts-ignore
     expect(container.querySelector('img.ava')).toBeInTheDocument();
-
-    screen.debug();
   });
 });
