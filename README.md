@@ -21,6 +21,6 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
-### Live
+### Live demo
 
 [https://m-husein.github.io/avatar.html](https://m-husein.github.io/avatar.html)

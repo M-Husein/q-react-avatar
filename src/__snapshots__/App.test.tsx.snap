@@ -908,7 +908,7 @@ Peter Parker"
             class="mb-4 border border-solid border-gray-300 rounded flex flex-row flex-wrap bg-gray-100 overflow-hidden"
           >
             <div
-              class="w-full lg:w-3/4 grid place-content-center py-6 px-4 text-center overflow-auto"
+              class="w-full lg:w-3/4 grid place-content-center py-6 px-4 text-center overflow-auto h-[calc(100vh-95px)]"
             >
               <h6
                 class="mb-4"
@@ -1004,7 +1004,7 @@ Peter Parker"
               </span>
             </div>
             <div
-              class="w-full lg:w-1/4 p-4 bg-white"
+              class="w-full lg:w-1/4 p-4 bg-white overflow-y-auto h-[calc(100vh-95px)]"
             >
               <h6>
                 &lt;Avatar /&gt;
@@ -1195,6 +1195,479 @@ Peter Parker"
                     value="5"
                   />
                 </div>
+                <details>
+                  <summary
+                    class="py-1 cursor-pointer hover:bg-blue-100"
+                  >
+                    Avatar Items
+                  </summary>
+                  <div
+                    class="rounded border border-solid border-gray-300"
+                  >
+                    <div
+                      class="p-2"
+                    >
+                      <button
+                        class="py-1 px-2 bg-blue-500 hover:bg-blue-600 active:bg-blue-700 cursor-pointer border-blue-700 text-white rounded select-none"
+                        type="button"
+                      >
+                        Add User
+                      </button>
+                    </div>
+                    <ol
+                      class="m-0 space-y-4 pl-6 pr-3"
+                    >
+                      <li
+                        class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                      >
+                        <div>
+                          <label
+                            for="agName1"
+                          >
+                            Name
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agName1"
+                            type="text"
+                            value="Muhamad Husein"
+                          />
+                        </div>
+                        <div>
+                          <label
+                            for="agSrc1"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agSrc1"
+                            type="url"
+                            value="/img/muhamad_husein.jpg"
+                          />
+                          <h6
+                            class="my-4"
+                          >
+                            or
+                          </h6>
+                          <label
+                            for="agSrcFile1"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            accept="image/*"
+                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            id="agSrcFile1"
+                            type="file"
+                          />
+                        </div>
+                        <div
+                          class="text-right"
+                        >
+                          <button
+                            class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                            type="button"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      </li>
+                      <li
+                        class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                      >
+                        <div>
+                          <label
+                            for="agName2"
+                          >
+                            Name
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agName2"
+                            type="text"
+                            value="Siti Umaya"
+                          />
+                        </div>
+                        <div>
+                          <label
+                            for="agSrc2"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agSrc2"
+                            type="url"
+                            value="/img/hijab_girl.jpg"
+                          />
+                          <h6
+                            class="my-4"
+                          >
+                            or
+                          </h6>
+                          <label
+                            for="agSrcFile2"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            accept="image/*"
+                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            id="agSrcFile2"
+                            type="file"
+                          />
+                        </div>
+                        <div
+                          class="text-right"
+                        >
+                          <button
+                            class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                            type="button"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      </li>
+                      <li
+                        class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                      >
+                        <div>
+                          <label
+                            for="agName3"
+                          >
+                            Name
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agName3"
+                            type="text"
+                            value="Elizabeth Olsen"
+                          />
+                        </div>
+                        <div>
+                          <label
+                            for="agSrc3"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agSrc3"
+                            type="url"
+                            value="/img/hijab_girl_2.webp"
+                          />
+                          <h6
+                            class="my-4"
+                          >
+                            or
+                          </h6>
+                          <label
+                            for="agSrcFile3"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            accept="image/*"
+                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            id="agSrcFile3"
+                            type="file"
+                          />
+                        </div>
+                        <div
+                          class="text-right"
+                        >
+                          <button
+                            class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                            type="button"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      </li>
+                      <li
+                        class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                      >
+                        <div>
+                          <label
+                            for="agName4"
+                          >
+                            Name
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agName4"
+                            type="text"
+                            value="Jane Doe Taylor"
+                          />
+                        </div>
+                        <div>
+                          <label
+                            for="agSrc4"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agSrc4"
+                            type="url"
+                            value="/img/hijab_girl_3.jpg"
+                          />
+                          <h6
+                            class="my-4"
+                          >
+                            or
+                          </h6>
+                          <label
+                            for="agSrcFile4"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            accept="image/*"
+                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            id="agSrcFile4"
+                            type="file"
+                          />
+                        </div>
+                        <div
+                          class="text-right"
+                        >
+                          <button
+                            class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                            type="button"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      </li>
+                      <li
+                        class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                      >
+                        <div>
+                          <label
+                            for="agName5"
+                          >
+                            Name
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agName5"
+                            type="text"
+                            value="Bruce Wayne"
+                          />
+                        </div>
+                        <div>
+                          <label
+                            for="agSrc5"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agSrc5"
+                            type="url"
+                            value=""
+                          />
+                          <h6
+                            class="my-4"
+                          >
+                            or
+                          </h6>
+                          <label
+                            for="agSrcFile5"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            accept="image/*"
+                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            id="agSrcFile5"
+                            type="file"
+                          />
+                        </div>
+                        <div
+                          class="text-right"
+                        >
+                          <button
+                            class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                            type="button"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      </li>
+                      <li
+                        class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                      >
+                        <div>
+                          <label
+                            for="agName6"
+                          >
+                            Name
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agName6"
+                            type="text"
+                            value="Angelina Rose"
+                          />
+                        </div>
+                        <div>
+                          <label
+                            for="agSrc6"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agSrc6"
+                            type="url"
+                            value="/img/hijab_girl_4.jpg"
+                          />
+                          <h6
+                            class="my-4"
+                          >
+                            or
+                          </h6>
+                          <label
+                            for="agSrcFile6"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            accept="image/*"
+                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            id="agSrcFile6"
+                            type="file"
+                          />
+                        </div>
+                        <div
+                          class="text-right"
+                        >
+                          <button
+                            class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                            type="button"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      </li>
+                      <li
+                        class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                      >
+                        <div>
+                          <label
+                            for="agName7"
+                          >
+                            Name
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agName7"
+                            type="text"
+                            value="Diana Prince"
+                          />
+                        </div>
+                        <div>
+                          <label
+                            for="agSrc7"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agSrc7"
+                            type="url"
+                            value=""
+                          />
+                          <h6
+                            class="my-4"
+                          >
+                            or
+                          </h6>
+                          <label
+                            for="agSrcFile7"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            accept="image/*"
+                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            id="agSrcFile7"
+                            type="file"
+                          />
+                        </div>
+                        <div
+                          class="text-right"
+                        >
+                          <button
+                            class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                            type="button"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      </li>
+                      <li
+                        class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                      >
+                        <div>
+                          <label
+                            for="agName8"
+                          >
+                            Name
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agName8"
+                            type="text"
+                            value="Peter Parker"
+                          />
+                        </div>
+                        <div>
+                          <label
+                            for="agSrc8"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            id="agSrc8"
+                            type="url"
+                            value=""
+                          />
+                          <h6
+                            class="my-4"
+                          >
+                            or
+                          </h6>
+                          <label
+                            for="agSrcFile8"
+                          >
+                            Image Src
+                          </label>
+                          <input
+                            accept="image/*"
+                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            id="agSrcFile8"
+                            type="file"
+                          />
+                        </div>
+                        <div
+                          class="text-right"
+                        >
+                          <button
+                            class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                            type="button"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      </li>
+                    </ol>
+                  </div>
+                </details>
               </div>
             </div>
           </div>
@@ -2106,7 +2579,7 @@ Peter Parker"
           class="mb-4 border border-solid border-gray-300 rounded flex flex-row flex-wrap bg-gray-100 overflow-hidden"
         >
           <div
-            class="w-full lg:w-3/4 grid place-content-center py-6 px-4 text-center overflow-auto"
+            class="w-full lg:w-3/4 grid place-content-center py-6 px-4 text-center overflow-auto h-[calc(100vh-95px)]"
           >
             <h6
               class="mb-4"
@@ -2202,7 +2675,7 @@ Peter Parker"
             </span>
           </div>
           <div
-            class="w-full lg:w-1/4 p-4 bg-white"
+            class="w-full lg:w-1/4 p-4 bg-white overflow-y-auto h-[calc(100vh-95px)]"
           >
             <h6>
               &lt;Avatar /&gt;
@@ -2393,6 +2866,479 @@ Peter Parker"
                   value="5"
                 />
               </div>
+              <details>
+                <summary
+                  class="py-1 cursor-pointer hover:bg-blue-100"
+                >
+                  Avatar Items
+                </summary>
+                <div
+                  class="rounded border border-solid border-gray-300"
+                >
+                  <div
+                    class="p-2"
+                  >
+                    <button
+                      class="py-1 px-2 bg-blue-500 hover:bg-blue-600 active:bg-blue-700 cursor-pointer border-blue-700 text-white rounded select-none"
+                      type="button"
+                    >
+                      Add User
+                    </button>
+                  </div>
+                  <ol
+                    class="m-0 space-y-4 pl-6 pr-3"
+                  >
+                    <li
+                      class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                    >
+                      <div>
+                        <label
+                          for="agName1"
+                        >
+                          Name
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agName1"
+                          type="text"
+                          value="Muhamad Husein"
+                        />
+                      </div>
+                      <div>
+                        <label
+                          for="agSrc1"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agSrc1"
+                          type="url"
+                          value="/img/muhamad_husein.jpg"
+                        />
+                        <h6
+                          class="my-4"
+                        >
+                          or
+                        </h6>
+                        <label
+                          for="agSrcFile1"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          accept="image/*"
+                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          id="agSrcFile1"
+                          type="file"
+                        />
+                      </div>
+                      <div
+                        class="text-right"
+                      >
+                        <button
+                          class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                          type="button"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    </li>
+                    <li
+                      class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                    >
+                      <div>
+                        <label
+                          for="agName2"
+                        >
+                          Name
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agName2"
+                          type="text"
+                          value="Siti Umaya"
+                        />
+                      </div>
+                      <div>
+                        <label
+                          for="agSrc2"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agSrc2"
+                          type="url"
+                          value="/img/hijab_girl.jpg"
+                        />
+                        <h6
+                          class="my-4"
+                        >
+                          or
+                        </h6>
+                        <label
+                          for="agSrcFile2"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          accept="image/*"
+                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          id="agSrcFile2"
+                          type="file"
+                        />
+                      </div>
+                      <div
+                        class="text-right"
+                      >
+                        <button
+                          class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                          type="button"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    </li>
+                    <li
+                      class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                    >
+                      <div>
+                        <label
+                          for="agName3"
+                        >
+                          Name
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agName3"
+                          type="text"
+                          value="Elizabeth Olsen"
+                        />
+                      </div>
+                      <div>
+                        <label
+                          for="agSrc3"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agSrc3"
+                          type="url"
+                          value="/img/hijab_girl_2.webp"
+                        />
+                        <h6
+                          class="my-4"
+                        >
+                          or
+                        </h6>
+                        <label
+                          for="agSrcFile3"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          accept="image/*"
+                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          id="agSrcFile3"
+                          type="file"
+                        />
+                      </div>
+                      <div
+                        class="text-right"
+                      >
+                        <button
+                          class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                          type="button"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    </li>
+                    <li
+                      class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                    >
+                      <div>
+                        <label
+                          for="agName4"
+                        >
+                          Name
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agName4"
+                          type="text"
+                          value="Jane Doe Taylor"
+                        />
+                      </div>
+                      <div>
+                        <label
+                          for="agSrc4"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agSrc4"
+                          type="url"
+                          value="/img/hijab_girl_3.jpg"
+                        />
+                        <h6
+                          class="my-4"
+                        >
+                          or
+                        </h6>
+                        <label
+                          for="agSrcFile4"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          accept="image/*"
+                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          id="agSrcFile4"
+                          type="file"
+                        />
+                      </div>
+                      <div
+                        class="text-right"
+                      >
+                        <button
+                          class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                          type="button"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    </li>
+                    <li
+                      class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                    >
+                      <div>
+                        <label
+                          for="agName5"
+                        >
+                          Name
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agName5"
+                          type="text"
+                          value="Bruce Wayne"
+                        />
+                      </div>
+                      <div>
+                        <label
+                          for="agSrc5"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agSrc5"
+                          type="url"
+                          value=""
+                        />
+                        <h6
+                          class="my-4"
+                        >
+                          or
+                        </h6>
+                        <label
+                          for="agSrcFile5"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          accept="image/*"
+                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          id="agSrcFile5"
+                          type="file"
+                        />
+                      </div>
+                      <div
+                        class="text-right"
+                      >
+                        <button
+                          class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                          type="button"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    </li>
+                    <li
+                      class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                    >
+                      <div>
+                        <label
+                          for="agName6"
+                        >
+                          Name
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agName6"
+                          type="text"
+                          value="Angelina Rose"
+                        />
+                      </div>
+                      <div>
+                        <label
+                          for="agSrc6"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agSrc6"
+                          type="url"
+                          value="/img/hijab_girl_4.jpg"
+                        />
+                        <h6
+                          class="my-4"
+                        >
+                          or
+                        </h6>
+                        <label
+                          for="agSrcFile6"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          accept="image/*"
+                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          id="agSrcFile6"
+                          type="file"
+                        />
+                      </div>
+                      <div
+                        class="text-right"
+                      >
+                        <button
+                          class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                          type="button"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    </li>
+                    <li
+                      class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                    >
+                      <div>
+                        <label
+                          for="agName7"
+                        >
+                          Name
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agName7"
+                          type="text"
+                          value="Diana Prince"
+                        />
+                      </div>
+                      <div>
+                        <label
+                          for="agSrc7"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agSrc7"
+                          type="url"
+                          value=""
+                        />
+                        <h6
+                          class="my-4"
+                        >
+                          or
+                        </h6>
+                        <label
+                          for="agSrcFile7"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          accept="image/*"
+                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          id="agSrcFile7"
+                          type="file"
+                        />
+                      </div>
+                      <div
+                        class="text-right"
+                      >
+                        <button
+                          class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                          type="button"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    </li>
+                    <li
+                      class="text-sm space-y-4 bg-gray-100 p-3 shadow-md rounded"
+                    >
+                      <div>
+                        <label
+                          for="agName8"
+                        >
+                          Name
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agName8"
+                          type="text"
+                          value="Peter Parker"
+                        />
+                      </div>
+                      <div>
+                        <label
+                          for="agSrc8"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          id="agSrc8"
+                          type="url"
+                          value=""
+                        />
+                        <h6
+                          class="my-4"
+                        >
+                          or
+                        </h6>
+                        <label
+                          for="agSrcFile8"
+                        >
+                          Image Src
+                        </label>
+                        <input
+                          accept="image/*"
+                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          id="agSrcFile8"
+                          type="file"
+                        />
+                      </div>
+                      <div
+                        class="text-right"
+                      >
+                        <button
+                          class="py-1 px-2 bg-gray-500 hover:bg-gray-600 active:bg-gray-700 cursor-pointer border-gray-700 text-white rounded select-none"
+                          type="button"
+                        >
+                          Remove
+                        </button>
+                      </div>
+                    </li>
+                  </ol>
+                </div>
+              </details>
             </div>
           </div>
         </div>
