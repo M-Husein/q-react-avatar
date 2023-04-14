@@ -83,11 +83,9 @@ export default function App(){
     const file = target?.files?.[0];
     setAvatarGroups(avatarGroups.map((v) => (v.id === item.id ? { ...v, [key]: file || target.value } : v) ));
     // Reset file
-    if(item.src?.type && target.value){
+    if(key === 'src' && item.src?.type && target.value){
       const inputFile = document.getElementById('agSrcFile' + item.id); // @ts-ignore
-      if(inputFile?.value){ // @ts-ignore
-        inputFile.value = '';
-      }
+      if(inputFile?.value) inputFile.value = '';
     }
   }
 
