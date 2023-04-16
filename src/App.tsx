@@ -319,7 +319,7 @@ export default function App(){
                     id="inputSrcAvatar"
                     value={avatarSrc}
                     onChange={(e) => setAvatarSrc(e.target.value)}
-                    className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                    className="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
                   />
                 </div>
 
@@ -330,7 +330,7 @@ export default function App(){
                     id="inputSrcAvatarAlt"
                     value={avatarAlt}
                     onChange={(e) => setAvatarAlt(e.target.value)}
-                    className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                    className="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
                   />
                 </div>
 
@@ -350,14 +350,14 @@ export default function App(){
                       id="inputSizeAvatar"
                       value={avatarSize}
                       onChange={(e) => setAvatarSize(+e.target.value)}
-                      className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                      className="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
                     />
                     :
                     <select
                       id="inputSizeAvatar"
                       value={avatarSize}
                       onChange={(e) => setAvatarSize(e.target.value as AvatarProps['size'])}
-                      className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                      className="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                     >
                       {['xs', 'sm', 'md', 'lg'].map((s) => <option key={s} value={s}>{s}</option>)}
                     </select>
@@ -370,7 +370,7 @@ export default function App(){
                       id="inputAvatarRadius"
                       value={avatarRadius}
                       onChange={(e) => setAvatarRadius(e.target.value)}
-                      className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                      className="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                     >
                       {['', 'rounded-full', 'rounded', 'rounded-sm', 'rounded-md', 'rounded-lg', 'rounded-xl'].map((s) => (
                         <option key={s} value={s}>{s === '' ? 'none' : s}</option>
@@ -399,14 +399,14 @@ export default function App(){
                       id="inputSizeAvatarGroup"
                       value={avatarGroupSize}
                       onChange={(e) => setAvatarGroupSize(+e.target.value)}
-                      className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                      className="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
                     />
                     :
                     <select
                       id="inputSizeAvatarGroup"
                       value={avatarGroupSize}
                       onChange={(e) => setAvatarGroupSize(e.target.value as AvatarProps['size'])}
-                      className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                      className="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                     >
                       {['xs', 'sm', 'md', 'lg'].map((s) => <option key={s} value={s}>{s}</option>)}
                     </select>
@@ -416,13 +416,13 @@ export default function App(){
                 <div>
                   <label htmlFor="inputMaxLength">maxLength</label>
                   <input
-                      type="number"
-                      min={0}
-                      id="inputMaxLength"
-                      value={avatarGroupMaxLength}
-                      onChange={(e) => setAvatarGroupMaxLength(+e.target.value)}
-                      className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
-                    />
+                    type="number"
+                    min={0}
+                    id="inputMaxLength"
+                    value={avatarGroupMaxLength}
+                    onChange={(e) => setAvatarGroupMaxLength(+e.target.value)}
+                    className="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                  />
                 </div>
 
                 <details>
@@ -439,7 +439,7 @@ export default function App(){
                             <input
                               type="text"
                               id={'agName' + item.id}
-                              className="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                              className="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                               value={item.name}
                               onChange={(e) => changeAvatarGroupItem(e, item, 'name')}
                             />
@@ -449,7 +449,7 @@ export default function App(){
                             <input
                               type="url"
                               id={'agSrc' + item.id}
-                              className="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                              className="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                               value={item.src?.type ? '' : item.src}
                               onChange={(e) => changeAvatarGroupItem(e, item, 'src')}
                             />
@@ -459,7 +459,7 @@ export default function App(){
                               type="file"
                               accept="image/*" // "image/png, image/jpeg"
                               id={'agSrcFile' + item.id}
-                              className="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                              className="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                               onChange={(e) => changeAvatarGroupItem(e, item, 'src')}
                             />
                           </div>

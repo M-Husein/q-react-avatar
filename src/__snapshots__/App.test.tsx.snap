@@ -1019,7 +1019,7 @@ Peter Parker"
                     src
                   </label>
                   <input
-                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                    class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
                     id="inputSrcAvatar"
                     type="url"
                     value="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
@@ -1032,7 +1032,7 @@ Peter Parker"
                     alt
                   </label>
                   <input
-                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                    class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
                     id="inputSrcAvatarAlt"
                     type="text"
                     value="Catherine Missal"
@@ -1057,7 +1057,7 @@ Peter Parker"
                     </label>
                   </div>
                   <select
-                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                    class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                     id="inputSizeAvatar"
                   >
                     <option
@@ -1089,7 +1089,7 @@ Peter Parker"
                     radius
                   </label>
                   <select
-                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                    class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                     id="inputAvatarRadius"
                   >
                     <option
@@ -1156,7 +1156,7 @@ Peter Parker"
                     </label>
                   </div>
                   <select
-                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                    class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                     id="inputSizeAvatarGroup"
                   >
                     <option
@@ -1188,7 +1188,7 @@ Peter Parker"
                     maxLength
                   </label>
                   <input
-                    class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                    class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
                     id="inputMaxLength"
                     min="0"
                     type="number"
@@ -1227,7 +1227,7 @@ Peter Parker"
                             Name
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agName1"
                             type="text"
                             value="Muhamad Husein"
@@ -1240,7 +1240,7 @@ Peter Parker"
                             Image Src
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agSrc1"
                             type="url"
                             value="/img/muhamad_husein.jpg"
@@ -1257,7 +1257,7 @@ Peter Parker"
                           </label>
                           <input
                             accept="image/*"
-                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                             id="agSrcFile1"
                             type="file"
                           />
@@ -1283,7 +1283,7 @@ Peter Parker"
                             Name
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agName2"
                             type="text"
                             value="Siti Umaya"
@@ -1296,7 +1296,7 @@ Peter Parker"
                             Image Src
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agSrc2"
                             type="url"
                             value="/img/hijab_girl.jpg"
@@ -1313,7 +1313,7 @@ Peter Parker"
                           </label>
                           <input
                             accept="image/*"
-                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                             id="agSrcFile2"
                             type="file"
                           />
@@ -1339,7 +1339,7 @@ Peter Parker"
                             Name
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agName3"
                             type="text"
                             value="Elizabeth Olsen"
@@ -1352,7 +1352,7 @@ Peter Parker"
                             Image Src
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agSrc3"
                             type="url"
                             value="/img/hijab_girl_2.webp"
@@ -1369,7 +1369,7 @@ Peter Parker"
                           </label>
                           <input
                             accept="image/*"
-                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                             id="agSrcFile3"
                             type="file"
                           />
@@ -1395,7 +1395,7 @@ Peter Parker"
                             Name
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agName4"
                             type="text"
                             value="Jane Doe Taylor"
@@ -1408,7 +1408,7 @@ Peter Parker"
                             Image Src
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agSrc4"
                             type="url"
                             value="/img/hijab_girl_3.jpg"
@@ -1425,7 +1425,7 @@ Peter Parker"
                           </label>
                           <input
                             accept="image/*"
-                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                             id="agSrcFile4"
                             type="file"
                           />
@@ -1451,7 +1451,7 @@ Peter Parker"
                             Name
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agName5"
                             type="text"
                             value="Bruce Wayne"
@@ -1464,7 +1464,7 @@ Peter Parker"
                             Image Src
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agSrc5"
                             type="url"
                             value=""
@@ -1481,7 +1481,7 @@ Peter Parker"
                           </label>
                           <input
                             accept="image/*"
-                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                             id="agSrcFile5"
                             type="file"
                           />
@@ -1507,7 +1507,7 @@ Peter Parker"
                             Name
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agName6"
                             type="text"
                             value="Angelina Rose"
@@ -1520,7 +1520,7 @@ Peter Parker"
                             Image Src
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agSrc6"
                             type="url"
                             value="/img/hijab_girl_4.jpg"
@@ -1537,7 +1537,7 @@ Peter Parker"
                           </label>
                           <input
                             accept="image/*"
-                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                             id="agSrcFile6"
                             type="file"
                           />
@@ -1563,7 +1563,7 @@ Peter Parker"
                             Name
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agName7"
                             type="text"
                             value="Diana Prince"
@@ -1576,7 +1576,7 @@ Peter Parker"
                             Image Src
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agSrc7"
                             type="url"
                             value=""
@@ -1593,7 +1593,7 @@ Peter Parker"
                           </label>
                           <input
                             accept="image/*"
-                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                             id="agSrcFile7"
                             type="file"
                           />
@@ -1619,7 +1619,7 @@ Peter Parker"
                             Name
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agName8"
                             type="text"
                             value="Peter Parker"
@@ -1632,7 +1632,7 @@ Peter Parker"
                             Image Src
                           </label>
                           <input
-                            class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                            class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                             id="agSrc8"
                             type="url"
                             value=""
@@ -1649,7 +1649,7 @@ Peter Parker"
                           </label>
                           <input
                             accept="image/*"
-                            class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                            class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                             id="agSrcFile8"
                             type="file"
                           />
@@ -2690,7 +2690,7 @@ Peter Parker"
                   src
                 </label>
                 <input
-                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                  class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
                   id="inputSrcAvatar"
                   type="url"
                   value="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
@@ -2703,7 +2703,7 @@ Peter Parker"
                   alt
                 </label>
                 <input
-                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                  class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
                   id="inputSrcAvatarAlt"
                   type="text"
                   value="Catherine Missal"
@@ -2728,7 +2728,7 @@ Peter Parker"
                   </label>
                 </div>
                 <select
-                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                  class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                   id="inputSizeAvatar"
                 >
                   <option
@@ -2760,7 +2760,7 @@ Peter Parker"
                   radius
                 </label>
                 <select
-                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                  class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                   id="inputAvatarRadius"
                 >
                   <option
@@ -2827,7 +2827,7 @@ Peter Parker"
                   </label>
                 </div>
                 <select
-                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
+                  class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 cursor-pointer"
                   id="inputSizeAvatarGroup"
                 >
                   <option
@@ -2859,7 +2859,7 @@ Peter Parker"
                   maxLength
                 </label>
                 <input
-                  class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
+                  class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500"
                   id="inputMaxLength"
                   min="0"
                   type="number"
@@ -2898,7 +2898,7 @@ Peter Parker"
                           Name
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agName1"
                           type="text"
                           value="Muhamad Husein"
@@ -2911,7 +2911,7 @@ Peter Parker"
                           Image Src
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agSrc1"
                           type="url"
                           value="/img/muhamad_husein.jpg"
@@ -2928,7 +2928,7 @@ Peter Parker"
                         </label>
                         <input
                           accept="image/*"
-                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                           id="agSrcFile1"
                           type="file"
                         />
@@ -2954,7 +2954,7 @@ Peter Parker"
                           Name
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agName2"
                           type="text"
                           value="Siti Umaya"
@@ -2967,7 +2967,7 @@ Peter Parker"
                           Image Src
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agSrc2"
                           type="url"
                           value="/img/hijab_girl.jpg"
@@ -2984,7 +2984,7 @@ Peter Parker"
                         </label>
                         <input
                           accept="image/*"
-                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                           id="agSrcFile2"
                           type="file"
                         />
@@ -3010,7 +3010,7 @@ Peter Parker"
                           Name
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agName3"
                           type="text"
                           value="Elizabeth Olsen"
@@ -3023,7 +3023,7 @@ Peter Parker"
                           Image Src
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agSrc3"
                           type="url"
                           value="/img/hijab_girl_2.webp"
@@ -3040,7 +3040,7 @@ Peter Parker"
                         </label>
                         <input
                           accept="image/*"
-                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                           id="agSrcFile3"
                           type="file"
                         />
@@ -3066,7 +3066,7 @@ Peter Parker"
                           Name
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agName4"
                           type="text"
                           value="Jane Doe Taylor"
@@ -3079,7 +3079,7 @@ Peter Parker"
                           Image Src
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agSrc4"
                           type="url"
                           value="/img/hijab_girl_3.jpg"
@@ -3096,7 +3096,7 @@ Peter Parker"
                         </label>
                         <input
                           accept="image/*"
-                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                           id="agSrcFile4"
                           type="file"
                         />
@@ -3122,7 +3122,7 @@ Peter Parker"
                           Name
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agName5"
                           type="text"
                           value="Bruce Wayne"
@@ -3135,7 +3135,7 @@ Peter Parker"
                           Image Src
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agSrc5"
                           type="url"
                           value=""
@@ -3152,7 +3152,7 @@ Peter Parker"
                         </label>
                         <input
                           accept="image/*"
-                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                           id="agSrcFile5"
                           type="file"
                         />
@@ -3178,7 +3178,7 @@ Peter Parker"
                           Name
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agName6"
                           type="text"
                           value="Angelina Rose"
@@ -3191,7 +3191,7 @@ Peter Parker"
                           Image Src
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agSrc6"
                           type="url"
                           value="/img/hijab_girl_4.jpg"
@@ -3208,7 +3208,7 @@ Peter Parker"
                         </label>
                         <input
                           accept="image/*"
-                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                           id="agSrcFile6"
                           type="file"
                         />
@@ -3234,7 +3234,7 @@ Peter Parker"
                           Name
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agName7"
                           type="text"
                           value="Diana Prince"
@@ -3247,7 +3247,7 @@ Peter Parker"
                           Image Src
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agSrc7"
                           type="url"
                           value=""
@@ -3264,7 +3264,7 @@ Peter Parker"
                         </label>
                         <input
                           accept="image/*"
-                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                           id="agSrcFile7"
                           type="file"
                         />
@@ -3290,7 +3290,7 @@ Peter Parker"
                           Name
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agName8"
                           type="text"
                           value="Peter Parker"
@@ -3303,7 +3303,7 @@ Peter Parker"
                           Image Src
                         </label>
                         <input
-                          class="h-7 text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
+                          class="h-7 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full focus:outline-blue-500 mt-1"
                           id="agSrc8"
                           type="url"
                           value=""
@@ -3320,7 +3320,7 @@ Peter Parker"
                         </label>
                         <input
                           accept="image/*"
-                          class="h-10 text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
+                          class="h-10 bg-white text-sm rounded border border-solid border-gray-400 p-2 block w-full mt-1 cursor-pointer"
                           id="agSrcFile8"
                           type="file"
                         />
